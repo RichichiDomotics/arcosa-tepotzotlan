@@ -6,220 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfe8f672-f6da-4095-b442-59c1e8bc9ff6" name="Default" comment="role almacenista">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/almacen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/almacen_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/almacen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/almacen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/ControlTunel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/ControlTunel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetalleFacturacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetalleFacturacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/PreVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/PreVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Prospecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Prospecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/RegEntradas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/RegEntradas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Retemes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Retemes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Salidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasAlmacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasAlmacen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Servicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Servicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/TraspasosCamara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/TraspasosCamara.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Ubicaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Ubicaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngresoDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngresoDetalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ClienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ClienteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ControlTunelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ControlTunelDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleFacturacionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleFacturacionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleRdDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleRdDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/InventarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/InventarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ProspectoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ProspectoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RegEntradasDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RegEntradasDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RetemesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RetemesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasAlmacenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasAlmacenDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/TraspasosCamaraDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/TraspasosCamaraDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UbicacionesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UbicacionesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UsuarioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/VehiculoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/VehiculoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ClienteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ClienteDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ControlTunelDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ControlTunelDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/DetalleFacturacionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/DetalleFacturacionDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ProspectoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ProspectoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RegEntradasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RegEntradasDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RetemesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RetemesDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasAlmacenDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasAlmacenDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/TraspasosCamaraDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/TraspasosCamaraDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UbicacionesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UbicacionesDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UsuarioDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UsuarioDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/VehiculoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/VehiculoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ClienteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ClienteManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ControlTunelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ControlTunelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleFacturacionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleFacturacionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleRdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleRdManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/InventarioManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/InventarioManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ProspectoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ProspectoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RegEntradasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RegEntradasManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RetemesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RetemesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasAlmacenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasAlmacenManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/TraspasosCamaraManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/TraspasosCamaraManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UbicacionesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UbicacionesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UsuarioManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UsuarioManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/VehiculoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/VehiculoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ClienteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ClienteManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ControlTunelManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ControlTunelManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleFacturacionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleFacturacionManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleRdManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleRdManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/InventarioManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/InventarioManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfEntradasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfEntradasManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ProspectoManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ProspectoManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RegEntradasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RegEntradasManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RetemesManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RetemesManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasAlmacenManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasAlmacenManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/TraspasosCamaraManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/TraspasosCamaraManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UbicacionesManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UbicacionesManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UsuarioManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UsuarioManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/VehiculoManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/VehiculoManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/AlmacenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ClientesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ClientesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ControlTunelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ControlTunelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorCamaraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorCamaraController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorDiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorDiaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteDetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteDetalleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportInventarioTodasCamaras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportInventarioTodasCamaras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalArrastreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalArrastreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorCamaraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorCamaraController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorDiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorDiaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteDetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteDetalleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/PreVehiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/PreVehiculoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ProspectoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ProspectoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteEntradasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteEntradasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteSalidasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteSalidasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/TraspasoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/TraspasoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/IngresoVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/IngresoVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cboservicios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cboservicios.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleCliente.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleClienteCompleto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleClienteCompleto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaProspectoId.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaProspectoId.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalleDet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalleDet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/controlTunel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/controlTunel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamara.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamaraResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamaraResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteDetalleResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteDetalleResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formGetRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formGetRetemes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formInventarios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formInventarios.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteEntrada.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteEntrada.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteSalida.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteSalida.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRetemes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSalidas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSalidas.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formTraspasos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formTraspasos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formUbicaciones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formUbicaciones.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaIngresoProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaIngresoProspecto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaProspecto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getRetemes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ingresoPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ingresoPreVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertaReteme.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertaReteme.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inventariosReporte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inventariosReporte.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listaPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listaPreVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prospectoRegistrado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prospectoRegistrado.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registraUbicacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registraUbicacion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCamara.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCliente.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXTunel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXTunel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaArrastreResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaArrastreResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamara.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamaraResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamaraResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorDiaResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorDiaResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasCliente.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteDetalleResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteDetalleResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasResponse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPreVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaVehiculo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaClientes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaClientes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaCompara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaCompara.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaProspecto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaRecUbicacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaRecUbicacion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilosfirmado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilosfirmado.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/headerfirmado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/headerfirmado.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todasCamaras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todasCamaras.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/capturaDetalle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/capturaDetalle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/clientesCaptura.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/clientesCaptura.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/entrada.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/entrada.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/inicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/inicial.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/inventarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/inventarios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/registraentradas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/registraentradas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/retemes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/retemes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/salidas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/salidas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/salidasImp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/salidasImp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/pdf/a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbj/almacen/repository/TestPDFFileSalida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbj/almacen/repository/TestPDFFileSalida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" afterDir="false" />
-    </list>
     <list id="c66c64b8-39fa-45d6-83ff-919b0ce66d2f" name="Failed commit: Default" comment="Revert &quot;Revert &quot;redirecciona a la pagina de consulta&quot;&quot;&#10;&#10;This reverts commit 56314a8dff31739a890f2465d1c6aebe09081700.&#10;" />
+    <list default="true" id="bfe8f672-f6da-4095-b442-59c1e8bc9ff6" name="Default" comment="role almacenista">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="almacen.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -263,8 +53,7 @@
               <caret line="97" column="124" selection-start-line="97" selection-start-column="124" selection-end-line="97" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#42957#42958#0" expanded="true" />
-                <element signature="e#43001#43002#0" expanded="true" />
+                <element signature="e#3475#3486#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -318,7 +107,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="799">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
@@ -595,98 +384,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="almacen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="almacen" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="almacen" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="almacen" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -727,7 +473,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arcosa-Merida" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.searchVisible" value="true" />
@@ -1758,6 +1504,7 @@
       <workItem from="1527633801134" duration="1419000" />
       <workItem from="1527686850331" duration="6082000" />
       <workItem from="1527699280563" duration="6008000" />
+      <workItem from="1527706197639" duration="1300000" />
     </task>
     <task id="LOCAL-00069" summary="log de errores en captura de detalle">
       <created>1414046820031</created>
@@ -2106,7 +1853,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3414301000" />
+    <option name="totallyTimeSpent" value="3415601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2119,7 +1866,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33509833" side_tool="true" weight="0.38110235" />
@@ -2134,7 +1880,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" x="13" y="319" width="1366" height="317" id="Debug" order="4" sideWeight="0.74244714" weight="0.46568626" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3284055" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.31653544" />
       <window_info id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32843137" />
@@ -2144,8 +1889,8 @@
       <window_info anchor="bottom" id="Spring" order="1" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.31535947" />
       <window_info id="Persistence" order="7" sideWeight="0.5187032" side_tool="true" weight="0.29425114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48129675" visible="true" weight="0.24231333" />
       <window_info anchor="bottom" id="Problems" order="17" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48129675" visible="true" weight="0.24231333" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32854986" />
       <window_info id="Web" order="8" sideWeight="0.4664723" side_tool="true" weight="0.25988287" />
       <window_info id="Learn" order="9" />
@@ -2161,6 +1906,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="0" weight="0.25" />
       <window_info anchor="right" id="IDEtalk" order="11" weight="0.32779455" />
       <window_info anchor="right" id="Module Dependencies" order="9" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.31653544" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4003021" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -2581,9 +2327,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/jolvera/Documents/workspace-sts-3.1.0.RELEASE/Almacen/target/m2e-wtp/web-resources/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/jolvera/Documents/workspace-sts-3.1.0.RELEASE/Almacen/target/m2e-wtp/web-resources/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2649,7 +2393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="799">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
@@ -2660,8 +2404,7 @@
           <caret line="97" column="124" selection-start-line="97" selection-start-column="124" selection-end-line="97" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#42957#42958#0" expanded="true" />
-            <element signature="e#43001#43002#0" expanded="true" />
+            <element signature="e#3475#3486#0" expanded="true" />
           </folding>
         </state>
       </provider>
