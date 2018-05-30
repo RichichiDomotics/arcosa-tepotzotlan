@@ -1,0 +1,43 @@
+@CHARSET "utf-8";
+#contenedor_principal{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:5px;
+  margin-bottom:100px;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+.contenido-forma{
+	margin-top:55px;
+	 border:solid thin red;
+}
+
+#reportesprincipalpantalla .row-fluid .span4 .widget-body{
+	height:130px; 
+	padding-bottom: 15px;
+}
+
+.inicioPrincipal{
+  margin-top:5px;
+  margin-left:5px;
+  max-width:950px;
+  text-align:center;	
+ } 
+ 
+ .inicioPrincipal .row-fluid .infobox-container{
+ 	max-width:950px;
+ 	width:950px;
+ }
+ 
+ .inicioPrincipal .row-fluid .infobox-container .infobox-blue{
+ 	height:220px;
+ 	width:300px;
+ }
+ 
+ .inicioPrincipal .row-fluid .infobox-container .infobox-data{
+ 	width:250px;
+ }
+ .login{
+    border:solid thin red;
+ }
+ 

@@ -1,0 +1,211 @@
+@CHARSET "utf-8";
+nav ul li a{
+	background:#629DE5; 
+}
+
+.form-group{
+  	text-align: left;
+  	width: 250px;
+  }
+  
+  .form-group label{
+  	color:#000;
+  	font-size: 14px;
+  }
+  
+.contenido-forma-consulta{
+    position:relative;
+    margin-top:-100px;
+    margin-left:60px;
+    /*width: 350px;*/
+    min-width:280px;
+    max-width: 1500px;
+    height: auto;
+    min-height: 500px;
+  }  
+  
+  .contenido-forma-consulta-detalle{
+    position:relative;
+    margin-top:15px;
+	margin-left:120px;
+  	width: 900px;
+  	/*min-width:408px;
+  	max-width: 500px;*/
+  	height: auto;
+  	min-height: 500px;
+  	padding-bottom:30px;
+  	padding-left:20px;
+  	padding-right:10px;
+  }  
+  
+.contenido-forma-ingresa-detalle{
+	position:relative;
+    margin-top:15px;
+	margin-left:90px;
+  	width: 800px;
+  	/*min-width:408px;
+  	max-width: 500px;*/
+  	height: auto;
+  	min-height: 1800px;
+  	padding-bottom:730px;
+  	padding-left:20px;
+  	padding-right:10px;	
+}    
+
+.registradetalleboton{
+	margin-bottom: 25px;	
+}
+  
+  .grupodedatosread {
+  width: 1300px;
+  margin-top: -30px;
+  border:none; /*solid thin #000;*/
+  }
+  
+   .grupodedatosreaddetalle {
+  width: 1300px;
+  margin-top: 0px;
+  border:none; /*solid thin #000;*/
+  }
+  
+   .grupodedatosreaddetalle .bloquedata{
+  	display:block;
+  	width: 390px;
+  	float: left;
+  }
+  
+  .grupodedatosread .bloquedata{
+  	display:block;
+  	width: 390px;
+  	float: left;
+  }
+  
+  .grupodedatos .bloquedata{
+  	display:block;
+  	width: 290px;
+  	float: left;
+  }
+  
+  .contenido-forma{
+    position:relative;
+    margin-top:-30px;
+	margin-left:-80px;
+  	/*width: 350px;*/
+  	min-width:408px;
+  	max-width: 1500px;
+  	height: auto;
+  	min-height: 500px;
+  }  
+
+#consultadetallesRd{
+  margin-top:170px;
+  margin-left:50px;
+  color:#000;
+}
+
+.grupodedatosreaddetalle .alert-info{
+       color:#000;
+       padding:3px;
+       border-radius:3px;
+       text-transform: uppercase;
+       width: 250px;
+       font-size: 11px;
+       font-weight: bold;
+       background: #629DE5;
+       height: auto;
+       vertical-align:2%;
+    }
+    
+.grupodedatosread .alert-info-cliente{
+       color:#000;
+       padding:3px;
+       border-radius:3px;
+       text-transform: uppercase;
+       width: 350px;
+       font-size: 9px;
+       font-weight: bold;
+       background: #629DE5;
+       height: auto;
+       vertical-align:2%;
+    }    
+    
+ .grupodedatosread .alert-info{
+       color:#000;
+       padding:3px;
+       border-radius:3px;
+       text-transform: uppercase;
+       width: 250px;
+       font-size: 11px;
+       font-weight: bold;
+       background: #629DE5;
+       height: auto;
+       vertical-align:2%;
+    }
+  
+ h1.tituloinicioconsulta{
+    margin-top:-90px;
+  	font-size:35px;
+  	color:#333;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+     color:#333;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+  }   
+    
+ h1.tituloinicioconsultadetalle{
+    margin-top:-90px;
+  	font-size:35px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+    color:#333;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+  }
+  
+  h1.tituloinicioconsultadetallecaptura{
+    margin-top:-108px;
+  	font-size:35px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+	  	color:#333;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+  }
+  
+  h3.subtituloregdetalle{
+  	font-size:18px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+	  	color:#333;
+  	margin-left:0px;
+  	background: none;
+  	margin-top:60px;
+  	width:500px;
+  	padding-bottom: 25px;
+  }
+ 
+ .alert-success-reg-detalle{
+     background: #629DE5;
+ }
+ 
+  .alert-success-consulta{
+     background: #629DE5;
+ }
+   
+
+ #tablaresultadodetalle{
+	margin-top:495px;  
+	/*margin-left:-150px;*/
+  }
+  
+  .observaciones{
+  		height: 65px;
+  }
+

@@ -1,0 +1,9 @@
+@CHARSET "utf-8";
+ .login{
+ 	margin-top:50px;
+ 	margin-left:280px;
+    border:solid thin #c0c0c0;
+    padding-left:35px;
+    padding-right:35px;
+ }
+ 

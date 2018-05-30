@@ -1,0 +1,143 @@
+@CHARSET "utf-8";
+nav ul li a{
+	background:#C7CD1F; 
+}
+
+  .form-group{
+  	text-align: left;
+  	width: 250px;
+  }
+  
+  .form-group label{
+  	color:#000;
+  	font-size: 12px;
+  }
+  
+  .contenido-forma{
+    position:relative;
+    margin-top:-30px;
+	margin-left:-80px;
+  	/*width: 350px;*/
+  	min-width:408px;
+  	max-width: 1500px;
+  	height: auto;
+  	min-height: 500px;
+  }  
+  
+  .grupodedatos {
+  /*border:solid thin red;
+  max-width: 900px;width: 1300px;*/
+  width: 1300px;
+  }
+  
+  .grupodedatosread {
+  width: 1300px;
+  }
+  
+  .grupodedatosread .alert-info{
+       color:#000;
+       padding:10px;
+       border-radius:10px;
+       text-transform: uppercase;
+       width: 250px;
+       font-size: 12px;
+       font-weight: bold;
+    }
+  
+  .grupodedatosread .bloquedata{
+  	display:block;
+  	width: 390px;
+  	float: left;
+  }
+  
+  .grupodedatos .bloquedata{
+  	display:block;
+  	width: 290px;
+  	float: left;
+  }
+  
+  .contenido-forma{
+    position:relative;
+    margin-top:-30px;
+	margin-left:-80px;
+  	/*width: 350px;*/
+  	min-width:408px;
+  	max-width: 1500px;
+  	height: auto;
+  	min-height: 500px;
+  }  
+
+
+h1.tituloiniciosalida{
+    margin-top:-90px;
+  	font-size:35px;
+  	color:#000;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+     color:#fff;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+    
+  }
+  
+  h1.tituloinicioconsulta{
+    margin-top:-90px;
+  	font-size:35px;
+  	color:#000;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+     color:#000;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+  }
+  
+    
+    .contenido-forma-salida{
+    position:relative;
+    margin-top:15px;
+	margin-left:40px;
+  	width: 760px;
+  	/*min-width:408px;
+  	max-width: 500px;
+  	height: auto;*/
+  	/*min-height: 200px;*/
+  	/*border:solid thin #000;*/
+  	padding-bottom:30px;
+  	padding-left:20px;
+  	padding-right:10px;
+  }  
+  
+  
+  
+  .table{
+    color:#000;
+  }
+  
+  .table input{
+    color:#000;
+  }
+  
+  #consultadetallesRd{
+  /*margin-top:170px;
+  margin-left:50px;*/
+  
+}
+  #consultadetallesRd{
+     width:850px;
+     margin-top:140px;
+	 margin-left:-8px; 
+	 color:#000;
+  }
+  
+ .alert-success{
+     background: #C7CD1F;
+ }
+ 
+
+ 
+ 
+    

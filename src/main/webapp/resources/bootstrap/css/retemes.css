@@ -1,0 +1,158 @@
+@CHARSET "utf-8";
+  /*********************************************************************************************/
+    .error { color: red; }
+    
+  /*********************************************************************************************/
+
+
+  .form-group{
+  	text-align: left;
+  	width: 250px;
+  }
+  
+  .form-group label{
+  	color:#000;
+  	font-size: 14px;
+  }
+  
+  .contenido-forma{
+    position:relative;
+    margin-top:-30px;
+	margin-left:60px;
+  	/*width: 350px;*/
+  	min-width:280px;
+  	max-width: 1500px;
+  	height: auto;
+  	min-height: 900px;
+  }  
+/* 
+ #jumbotron{
+  	min-height: 1250px;
+  }
+  */
+  h1.tituloinicio{
+    margin-top:-85px;
+  	font-size:35px;
+  	color:#333;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	font-size:30px;
+     color:#333;
+    margin-left:-20px;
+    background: none;
+    height: 15px;
+  }
+  
+  h3.tituloinicio2{
+  	font-size:18px;
+  	color:#333;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  	margin-left:0px;
+  	background: none;
+  	margin-top:40px;
+  }
+  
+  
+  .grupodedatosRetemes {
+  /*border:solid thin red;
+  max-width: 900px;width: 1300px;*/
+  width: 1300px;
+  }
+  
+  .grupodedatosRetemes {
+  width: 1300px;
+  }
+  
+  .grupodedatosRetemes .alert-info{
+       color:#000;
+       padding:10px;
+       border-radius:10px;
+       text-transform: uppercase;
+       width: 250px;
+       font-size: 11px;
+       font-weight: bold;
+    }
+  
+  .grupodedatosRetemes .bloquedata{
+  	display:block;
+  	width: 450px;
+  	float: left;
+  }
+  
+  .grupodedatosRetemes .bloquedata .form-group{
+  	display:block;
+  	width: 350px;
+  	float: left;
+  }
+  
+  /****************************************************************************************
+  boton del detalle de consulta para iniciar el registro de detalle
+  *****************************************************************************************/
+  .btniniciodetallereg{
+  margin-top:55px;
+  margin-left:0px;
+  width:250px;
+  }
+  
+  /*****************************************************************************************
+  Forma de captura de ingresos (capturaIngresos)
+  *****************************************************************************************/
+  .subtituloregdetalle{
+  	text-align: left;
+  	width:450px;
+  	color:#000;
+  	font-size:18px;
+  	font-family: sans-serif;
+  	font-weight: bold;
+  }
+  
+  .registradetalle{
+  	margin-bottom: 120px;
+  }
+  
+  .terminacaptura{
+  position:absolute;
+  	 margin-top: 150px;
+  	 margin-left: -510px;
+  }
+  
+  #buscainventario{
+  	margin-top: 160px;	
+  	color:#fff;
+  	margin-bottom: 140px;
+  	margin-left:-65px;
+  	width: 930px;
+  }
+  #buscainventario th{
+  	background:#B27814;
+  }
+  
+  #totalInventario{
+  	font-size: 25px;
+  	font-weight: bold;
+  }
+  
+  #datocliente{
+     font-size: 25px;
+  	 font-weight: bold;
+  }
+  
+  .bloquedataResultado{
+  	width:955px;
+  	float: left;
+  	height: auto !important;
+  	padding-bottom: 1000px;
+  	border:solid thin black;
+  }
+  
+
+
+
+  .bloquedataResultadoget{
+  	width:870px;
+  	float: left;
+  	height: auto !important;
+  	padding-bottom: 1000px;
+  	padding-top:50px;	
+  }

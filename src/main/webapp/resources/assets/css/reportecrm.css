@@ -1,0 +1,91 @@
+@CHARSET "utf-8";
+
+.span4{
+    width:100%;
+}
+
+.contgrafi{
+    width:100%;
+}
+
+.contgrafi .span4{
+    width:100%;
+    height: auto !important;
+}
+
+#repo1{
+      clear:both;
+      width: 100%;
+  }
+
+#repo2{
+    clear:both;
+    width: 100%;
+}
+
+#repo3{
+    clear:both;
+    width: 100%;
+}
+
+#repo4{
+    clear:both;
+    width: 100%;
+}
+
+#contenidodelreporte1{
+    width: 40%;
+    float: left;
+    height: 35%;
+ }
+
+#graficas1{
+    width:49%;
+    float: left;
+    margin-left: 55px;
+}
+
+#contenidodelreporte2{
+    width: 40%;
+    float: left;
+    height: 35%;
+}
+
+#graficas2{
+    width:49%;
+    float: left;
+    margin-left: 55px;
+}
+
+#contenidodelreporte3{
+    width: 40%;
+    float: left;
+    height: 35%;
+}
+
+#graficas3{
+    width:49%;
+    float: left;
+    margin-left: 55px;
+}
+
+#contenidodelreporte4{
+    width: 40%;
+    float: left;
+    height: 35%;
+}
+
+#graficas4{
+    width:49%;
+    float: left;
+    margin-left: 55px;
+}
+
+#contenidoReporteProspecto{
+    width:100%;
+    clear:both;
+}
+
+footer{
+    margin-bottom: -10px;
+}

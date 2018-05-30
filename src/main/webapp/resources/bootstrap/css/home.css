@@ -1,0 +1,33 @@
+@CHARSET "utf-8";
+  #content_principal{
+  	margin-top:1%;
+    font-size:45px;
+    color:#000;
+    font-family: sans-serif;
+  	font-weight: bold;
+  }
+  .contenidohome{
+    margin-top:1%;
+    font-size:45px;
+    color:#000;
+    font-family: sans-serif;
+  	font-weight: bold;
+  }
+  
+  li.usuarioimagen{
+	width:40px;
+	height:65px;
+	font-size: 14px;
+	margin-top:20px;
+    background:url(../images/usuario.png) 0 0 no-repeat;
+  } 
+  
+  li.usuarioimagen a{
+    position:absolute;
+  	color:#2A6496;
+  	margin-left:-40px;
+  	margin-top:0px;
+  	padding-top:45px;
+  	height:85px;
+  } 
+ 

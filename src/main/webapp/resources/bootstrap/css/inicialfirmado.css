@@ -1,0 +1,317 @@
+@CHARSET "utf-8";
+body{
+overflow: auto;
+}
+
+/*********************************************************************************
+HOME
+*********************************************************************************/
+#flogo{
+	position:relative;
+	background: url(../../img/logo2f.png) no-repeat top left;
+	display: block;
+	line-height: 500px;
+	width: 150px;
+	height: 112px;
+	margin-top: -10px; 
+	margin-left: 15px;
+	overflow: hidden;
+}
+
+.sigin{
+	margin-top: -50px;
+	margin-right: -30px; 
+	float:right;
+	width:250px;
+}
+
+.text-muted{
+	margin-top:-70px;
+	margin-left:160px;	
+}
+
+.slogan{
+	margin-top:-10px;
+	margin-left:160px;	
+	padding-bottom:5px;
+}
+
+.jumbotron{
+	background: none;
+	background-position: -450px -750px ;
+	opacity:.99;
+  -webkit-box-shadow:0 1px 1px 0 #000;
+  -moz-box-shadow:0 1px 1px 0 #000;
+  box-shadow:0 1px 1px 0 #000;
+  height: 450px;
+}
+
+.jumbotron .reveal .contenido_interno .slides{
+	/*margin-top:-185px;
+	height: 150px;
+	width: 350px;
+	z-index:1500;*/
+}
+
+.jumbotron .reveal .contenido_interno .slides h4{
+	color:#333;
+}
+
+.imagensimulador{
+	position:absolute;
+	padding-left:4px;
+	margin-top:-330px;
+	width: 250px;
+	height: auto;
+}
+
+#imagenprestamo{
+	background: url(../../img/imagenprestamo3.jpg) no-repeat top left;
+	width: 250px;
+	height: 250px;
+}
+
+.botonsimulador{
+	padding-left:-14px;
+	z-index:100000;
+}
+
+.jumbotron .reveal .contenido_interno {
+	position:relative;
+	margin-top:-350px;
+	margin-left:470px;
+	height: 350px;
+	padding-bottom:25px;
+	padding-left:25px;
+	width: 400px;
+}
+
+.fondotexto{
+	position:inherit;
+	margin-top:-10px;
+	margin-left:385px;
+	height: 350px;
+	padding-bottom:25px;
+	width: 550px;
+   	background:#fff;
+	opacity:.69;
+	border:2px solid #000;
+	border-radius:15px;
+	z-index:-10000;
+}
+
+.fondotexto2{
+	position:inherit;
+	margin-top:-350px;
+	margin-left:-30px;
+	height: 350px;
+	padding-bottom:25px;
+	width: 300px;
+   	background:#fff;
+	opacity:.69;
+	border:2px solid #000;
+	border-radius:15px;
+	z-index:-10000;
+}
+
+.reveal .controls {
+	position:absolute;
+	margin-top:240px;
+	margin-right: 100px;
+	z-index:10000;	
+}
+
+.reveal .playback {
+	position:absolute;
+	margin-left:400px;
+	margin-bottom:10px;
+}
+
+.botones{
+  width: 450px;
+  height: 130px;
+}
+
+.botones .textobotn{
+	font-size: 46px;
+}
+
+/*********************************************************************************************************/
+/* FORMA PREREGISTRO*/
+/*********************************************************************************************************/
+#preregistro{
+	position:absolute;
+	margin-top:-40px;
+	margin-left:115px;
+	height: 440px;
+	padding-bottom:25px;
+	width: 800px;
+   	background:#fff;
+	opacity:.69;
+	border:2px solid #000;
+	border-radius:15px;
+	z-index:-10000;
+}
+
+#frmpreregistro{
+	text-align:left;
+	display:list-block;
+	position:absolute;
+	margin-top:-40px;
+	margin-left:115px;
+	padding:5px;
+	width:850px;
+	height: 400px;	
+}
+
+.titulopagina{
+	border:1px solid #000;
+	border-radius:15px;
+	background: #ddd;
+	color:#000;	
+	height: 35px;
+	width: 250px;
+}
+
+.advertencia_mini_derecha{
+	padding:5px;
+	width: 250px;
+	height: 50px;
+	position:relative;
+	margin-top:-57px;
+	margin-left:5px;
+	color: #000;
+  	background-color: #f0ad4e;
+  	border-color: #eea236;
+  	font-size: 12px;
+  	font-weight: bold;
+  	border-radius: 5px;
+}
+	
+.advertencia_media_derecha{
+	padding:5px;
+	width: 250px;
+	height: 50px;
+	position:absolute;
+	margin-top:60px;
+	margin-left:5px;
+	color: #000;
+  	background-color: #f0ad4e;
+  	border-color: #eea236;
+  	font-size: 12px;
+  	font-weight: bold;
+  	border-radius: 5px;
+}
+
+.input-sm{
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px;
+  width: 250px;
+  margin-left:260px;
+}
+
+#frmpreregistro label{ 
+	color: #000;
+	font-size: 16px;
+}
+
+
+.registro {
+  font-size: 15px;
+}
+
+.buttons-registra{
+	width: 280px;
+	height:50px;
+	margin-left:248px;
+	
+}
+
+.buttons-registra .cancelando{
+	margin-left:25px;
+	
+}
+
+input.error { border: 1px solid red; }
+input.valid { border: 1px solid green; }
+
+#frmpreregistro label.error {
+  position:absolute;	
+  display:inline-block;
+  margin-left:512px;
+  margin-top:-25px;
+  height:15px;
+  background:url("Imagenes/error.gif") no-repeat 0px 0px;
+  padding-left:0px;
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+  color:#fff; 
+  font-weight: bold;
+  box-shadow:3;
+  border-radius:5;
+  background:red;
+}
+
+#registrado{
+	height: 400px;
+	width: 600px;
+	font-size:40px;
+	text-align:center;
+	margin-left:200px;
+	margin-top:20px;
+}
+
+#botonloginconfirma{
+	margin-top:20px;
+}
+
+#registrandofondo{
+	position:absolute;
+	margin-top:-40px;
+	margin-left:115px;
+	height: 440px;
+	padding-bottom:25px;
+	width: 800px;
+   	background:#fff;
+	opacity:.69;
+	border:2px solid #000;
+	border-radius:15px;
+	z-index:-10000;
+}
+
+#fondoblancoavisoconfirmacion{
+	position:absolute;
+	margin-top:-45px;
+	margin-left:5px;
+	height: 440px;
+	padding-bottom:45px;
+	width: 1000px;
+   	background:#fff;
+	opacity:.69;
+	border:2px solid #000;
+	border-radius:15px;
+	z-index:-100000;
+}
+
+.avisoconfirma{
+	position:absolute;
+	margin-top:5px;
+	margin-left:130px;
+	width: 750px;
+	text-indent:inherit;
+	font-size: 35px;	
+	font-weight: bold;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+
+.firmaadministrador{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.regresainicio{
+	margin-top:15px;
+}	

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+
+    <security:http pattern="/resources/**" security="none" />
+    <security:http pattern="/resources/pdf/**" security="none" />
+    <security:http pattern="/cuotasJson" security="none"/>
+    <security:http pattern="/arlaJson" security="none"/>
+    <security:http pattern="/service**" security="none" />
+    <security:http auto-config="true">
+        <!--security:intercept-url pattern="/v_*" access="ROLE_VIGILANTE,ROLE_ADMIN" />
+        <security:intercept-url pattern="/adm_*" access="ROLE_ADMISION,ROLE_ADMIN" />
+        <security:intercept-url pattern="/alm_*" access="ROLE_ALMACENISTA,ROLE_ADMIN" />
+        <security:intercept-url pattern="/ae_formaIngresoCliente" access="ROLE_COMERCIAL,ROLE_ADMIN,ROLE_ENTRADA" />
+        <security:intercept-url pattern="/ae_controlTunel" access="ROLE_COMERCIAL,ROLE_ADMIN,ROLE_ENTRADA" />
+        <security:intercept-url pattern="/ae_*" access="ROLE_ADMIN,ROLE_ENTRADA,ROLE_EJECUTIVO,ROLE_JEFEEJE,ROLE_ALMACENISTA" />
+        <security:intercept-url pattern="/as_*" access="ROLE_ADMIN,ROLE_SALIDA" />
+        <security:intercept-url pattern="/aes_*" access="ROLE_ADMIN,ROLE_SALIDA,ROLE_ENTRADA" /-->
+
+
+        <security:form-login login-page="/login" default-target-url="/home"
+            authentication-failure-url="/loginError"/>
+        <security:access-denied-handler ref="accessDeniedHandler"/>
+        <security:session-management invalid-session-url="/login?session=expired" session-fixation-protection="none" session-authentication-error-url="/accessdenied">
+            <security:concurrency-control max-sessions="1" expired-url="/login?session=expired" />
+        </security:session-management>
+
+    </security:http>
+
+    <security:authentication-manager>
+        <security:authentication-provider >
+            <security:jdbc-user-service data-source-ref="dataSource" />
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+</beans>
+             

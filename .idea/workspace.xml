@@ -1,0 +1,2760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="almacen:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfe8f672-f6da-4095-b442-59c1e8bc9ff6" name="Default" comment="role almacenista">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/almacen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/almacen_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almacen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/almacen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/ControlTunel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/ControlTunel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetalleFacturacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetalleFacturacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/PreVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/PreVehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Prospecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Prospecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/RegEntradas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/RegEntradas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Retemes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Retemes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Salidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Salidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasAlmacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasAlmacen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Servicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Servicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/TraspasosCamara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/TraspasosCamara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Ubicaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Ubicaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngresoDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngresoDetalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ClienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ClienteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ControlTunelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ControlTunelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleFacturacionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleFacturacionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleRdDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/DetalleRdDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/InventarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/InventarioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ProspectoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ProspectoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RegEntradasDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RegEntradasDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RetemesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/RetemesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasAlmacenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasAlmacenDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/TraspasosCamaraDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/TraspasosCamaraDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UbicacionesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UbicacionesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UsuarioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/VehiculoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/VehiculoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ClienteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ClienteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ControlTunelDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ControlTunelDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/DetalleFacturacionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/DetalleFacturacionDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ProspectoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ProspectoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RegEntradasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RegEntradasDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RetemesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/RetemesDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasAlmacenDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasAlmacenDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/TraspasosCamaraDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/TraspasosCamaraDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UbicacionesDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UbicacionesDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UsuarioDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/UsuarioDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/VehiculoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/VehiculoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ClienteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ClienteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ControlTunelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ControlTunelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleFacturacionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleFacturacionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleRdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/DetalleRdManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/InventarioManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/InventarioManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ProspectoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ProspectoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RegEntradasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RegEntradasManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RetemesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/RetemesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasAlmacenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasAlmacenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/TraspasosCamaraManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/TraspasosCamaraManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UbicacionesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UbicacionesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UsuarioManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/UsuarioManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/VehiculoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/VehiculoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ClienteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ClienteManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ControlTunelManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ControlTunelManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleFacturacionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleFacturacionManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleRdManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleRdManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/InventarioManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/InventarioManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfEntradasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfEntradasManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ProspectoManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ProspectoManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RegEntradasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RegEntradasManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RetemesManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/RetemesManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasAlmacenManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasAlmacenManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/TraspasosCamaraManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/TraspasosCamaraManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UbicacionesManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UbicacionesManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UsuarioManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/UsuarioManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/VehiculoManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/VehiculoManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/AlmacenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ClientesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ClientesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ControlTunelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ControlTunelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorCamaraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorCamaraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorDiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorDiaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteDetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaClienteDetalleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportEntPorFechaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportInventarioTodasCamaras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportInventarioTodasCamaras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalArrastreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalArrastreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorCamaraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorCamaraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorDiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorDiaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteDetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteDetalleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/PreVehiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/PreVehiculoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ProspectoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ProspectoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteEntradasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteEntradasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteSalidasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ReporteSalidasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/TraspasoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/TraspasoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/IngresoVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/IngresoVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cboservicios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cboservicios.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleCliente.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleClienteCompleto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaDetalleClienteCompleto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaProspectoId.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaProspectoId.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalleDet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidaDetalleDet.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/controlTunel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/controlTunel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamara.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamaraResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorCamaraResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteDetalleResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteDetalleResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasClienteResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorFechasResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formGetRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formGetRetemes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formInventarios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formInventarios.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteEntrada.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteEntrada.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteSalida.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formReporteSalida.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRetemes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSalidas.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSalidas.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formTraspasos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formTraspasos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formUbicaciones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formUbicaciones.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaIngresoProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaIngresoProspecto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formaProspecto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getRetemes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getRetemes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ingresoPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ingresoPreVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertaReteme.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertaReteme.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inventariosReporte.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inventariosReporte.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listaPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listaPreVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prospectoRegistrado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/prospectoRegistrado.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registraUbicacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registraUbicacion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCamara.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXCliente.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXTunel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/saldosXTunel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaArrastreResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaArrastreResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamara.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamaraResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorCamaraResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorDiaResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorDiaResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasCliente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasCliente.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteDetalleResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteDetalleResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasClienteResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasResponse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPorFechasResponse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPreVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaPreVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaVehiculo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/salidaVehiculo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaClientes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaClientes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaCompara.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaCompara.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaProspecto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaProspecto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaRecUbicacion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaRecUbicacion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilosfirmado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/estilosfirmado.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/headerfirmado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/headerfirmado.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todasCamaras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todasCamaras.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/capturaDetalle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/capturaDetalle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/clientesCaptura.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/clientesCaptura.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/entrada.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/entrada.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/inicial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/inicial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/inventarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/inventarios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/registraentradas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/registraentradas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/retemes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/retemes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/salidas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/salidas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/salidasImp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/salidasImp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/pdf/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbj/almacen/repository/TestPDFFileSalida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbj/almacen/repository/TestPDFFileSalida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/jdbc.properties" afterDir="false" />
+    </list>
+    <list id="c66c64b8-39fa-45d6-83ff-919b0ce66d2f" name="Failed commit: Default" comment="Revert &quot;Revert &quot;redirecciona a la pagina de consulta&quot;&quot;&#10;&#10;This reverts commit 56314a8dff31739a890f2465d1c6aebe09081700.&#10;" />
+    <ignored path="almacen.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Commander">
+    <leftPanel url="file://$PROJECT_DIR$" />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/almacen$tomcat7.coverage" NAME="tomcat7 Coverage Results" MODIFIED="1399311646969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="almacen" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EntradasController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="97" column="124" selection-start-line="97" selection-start-column="124" selection-end-line="97" selection-end-column="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#42957#42958#0" expanded="true" />
+                <element signature="e#43001#43002#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportSearchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Convenios.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConveniosDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConveniosManagerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConveniosManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getInventarioReporte</find>
+      <find>findInventarioReporte</find>
+      <find>findSalidaByClienteConsecutivo</find>
+      <find>consultaSalidaImpresion</find>
+      <find>getKilosByDay</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0505" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaRendimientos.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/getTiemposAtencion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/VehiculoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formBloqueoSalida.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formAutorizaModificacion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reporteCitrofrut.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Clientes.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reportePilgrims.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java" />
+        <option value="$USER_HOME$/Downloads/GeneratePDFFileIText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/GeneratePDFFileIText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ImprimirSalidasManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/imprimirSalida.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/impSal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formatoingreso.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirSalidasManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirEntradasManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/jsonArla.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Almacen" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Almacen" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/tablesorter/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:lib)" />
+      <problem id="unused-library(library:project:Spring-4.0.3.RELEASE (2))" />
+      <problem id="unused-library(library:project:Spring-4.0.3.RELEASE)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="almacen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="almacen" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="almacen" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="almacen" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcosa_tepo3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="178" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="782" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="167" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="773" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="almacen" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSP" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arcosa-Merida" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.30078125" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42988506" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.cbj.almacen.repository.impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cbj.almacen.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cbj.almacen.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\Arcosa\src\main\webapp\resources\bootstrap\css" />
+      <recent name="C:\workspace\Arcosa\src\main\webapp\resources\bootstrap" />
+      <recent name="C:\Users\jolvera\Documents\GitHub\Almacen\src\main\webapp\resources" />
+      <recent name="C:\Users\jolvera\Documents\GitHub\Almacen\src\main\webapp" />
+      <recent name="C:\Users\jolvera\Documents\GitHub\Almacen\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WLSoftware\WorkSpaceArcosa2\Almacen\Almacen\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\jolvera\Documents\GitHub\Almacen\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cbj.almacen.service" />
+      <recent name="com.cbj.almacen.service.impl" />
+      <recent name="com.cbj.almacen.repository.impl" />
+      <recent name="com.cbj.almacen.repository" />
+      <recent name="com.cbj.almacen.domain" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cbj.almacen.repository" />
+      <recent name="com.cbj.almacen.service.impl" />
+      <recent name="com.cbj.almacen.domain.factory.catalogo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat 8">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration name="GeneratePDFFileIText (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratePDFFileIText" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GeneratePDFFileIText (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cbj.almacen.service.impl.GeneratePDFFileIText" />
+      <module name="almacen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbj.almacen.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GeneratePDFFileIText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.xulescode.itext.GeneratePDFFileIText" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.xulescode.itext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 3.1.2" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="RHAdmin:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="RHAdmin:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="AutPuertasManagerTest.testGetPuertaByClienteVehiculo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="almacen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbj.almacen.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cbj.almacen.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cbj.almacen.service.AutPuertasManagerTest" />
+      <option name="METHOD_NAME" value="testGetPuertaByClienteVehiculo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="TestPDFFile.testCreaPdf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="almacen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbj.almacen.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cbj.almacen.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.cbj.almacen.repository.TestPDFFile" />
+      <option name="METHOD_NAME" value="testCreaPdf" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre1.8.0_144">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/almacen" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="almacen:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/almacen" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_almacen_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49840" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="almacen:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat 8" />
+      <item itemvalue="JUnit.TestPDFFile.testCreaPdf" />
+      <item itemvalue="JUnit.AutPuertasManagerTest.testGetPuertaByClienteVehiculo" />
+      <item itemvalue="Application.GeneratePDFFileIText" />
+      <item itemvalue="Application.GeneratePDFFileIText (1)" />
+      <item itemvalue="Application.GeneratePDFFileIText (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratePDFFileIText (2)" />
+        <item itemvalue="Application.GeneratePDFFileIText (1)" />
+        <item itemvalue="Application.GeneratePDFFileIText" />
+        <item itemvalue="JUnit.AutPuertasManagerTest.testGetPuertaByClienteVehiculo" />
+        <item itemvalue="JUnit.TestPDFFile.testCreaPdf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfe8f672-f6da-4095-b442-59c1e8bc9ff6" name="Default" comment="" />
+      <created>1399099986686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1399099986686</updated>
+      <workItem from="1399099990576" duration="1134000" />
+      <workItem from="1399101149940" duration="12350000" />
+      <workItem from="1399186979368" duration="19191000" />
+      <workItem from="1399296193705" duration="6951000" />
+      <workItem from="1399311739134" duration="9000" />
+      <workItem from="1399311759275" duration="308000" />
+      <workItem from="1399382991022" duration="12526000" />
+      <workItem from="1399515627417" duration="735000" />
+      <workItem from="1399767793151" duration="10068000" />
+      <workItem from="1399947341979" duration="2257000" />
+      <workItem from="1399952022785" duration="2473000" />
+      <workItem from="1400038472337" duration="4659000" />
+      <workItem from="1400121184257" duration="6826000" />
+      <workItem from="1400305110852" duration="609000" />
+      <workItem from="1400371752705" duration="9527000" />
+      <workItem from="1400381687265" duration="9879000" />
+      <workItem from="1400433306170" duration="24188000" />
+      <workItem from="1400554491638" duration="7539000" />
+      <workItem from="1400638542824" duration="8253000" />
+      <workItem from="1400721979111" duration="11023000" />
+      <workItem from="1400815850018" duration="12698000" />
+      <workItem from="1400964138017" duration="15354000" />
+      <workItem from="1401047979744" duration="29126000" />
+      <workItem from="1401157546998" duration="5492000" />
+      <workItem from="1401239072371" duration="1037000" />
+      <workItem from="1401242596202" duration="14221000" />
+      <workItem from="1401331557791" duration="9109000" />
+      <workItem from="1401415389482" duration="3815000" />
+      <workItem from="1401419245266" duration="5500000" />
+      <workItem from="1401672979536" duration="11258000" />
+      <workItem from="1401761090220" duration="10827000" />
+      <workItem from="1401848174596" duration="10785000" />
+      <workItem from="1401939153137" duration="7616000" />
+      <workItem from="1402023148134" duration="10192000" />
+      <workItem from="1402114472632" duration="2946000" />
+      <workItem from="1402281387753" duration="10321000" />
+      <workItem from="1402291950201" duration="763000" />
+      <workItem from="1402454551647" duration="11240000" />
+      <workItem from="1402540873541" duration="6271000" />
+      <workItem from="1402967896762" duration="134000" />
+      <workItem from="1402973689436" duration="621000" />
+      <workItem from="1403065627241" duration="5054000" />
+      <workItem from="1403144072414" duration="10135000" />
+      <workItem from="1403235312274" duration="25000" />
+      <workItem from="1403235548054" duration="2248000" />
+      <workItem from="1403238104209" duration="5670000" />
+      <workItem from="1403463392374" duration="19104000" />
+      <workItem from="1403485703473" duration="3913000" />
+      <workItem from="1403489728157" duration="15082000" />
+      <workItem from="1403505042995" duration="209000" />
+      <workItem from="1403556747646" duration="20399000" />
+      <workItem from="1403582970550" duration="100000" />
+      <workItem from="1403657945943" duration="1730000" />
+      <workItem from="1403660323627" duration="2830000" />
+      <workItem from="1403663376542" duration="9681000" />
+      <workItem from="1403746619129" duration="10394000" />
+      <workItem from="1403839126778" duration="709000" />
+      <workItem from="1403841099317" duration="9722000" />
+      <workItem from="1404611326519" duration="175000" />
+      <workItem from="1404786410193" duration="6938000" />
+      <workItem from="1404869796675" duration="13200000" />
+      <workItem from="1404955571014" duration="1077000" />
+      <workItem from="1405388053088" duration="7899000" />
+      <workItem from="1405475393932" duration="12790000" />
+      <workItem from="1405649816057" duration="1936000" />
+      <workItem from="1405651795969" duration="46000" />
+      <workItem from="1405996889284" duration="7595000" />
+      <workItem from="1406077519240" duration="14430000" />
+      <workItem from="1406695367386" duration="775000" />
+      <workItem from="1406775121421" duration="2010000" />
+      <workItem from="1407292261992" duration="12765000" />
+      <workItem from="1407382439135" duration="7207000" />
+      <workItem from="1407471876990" duration="995000" />
+      <workItem from="1407815771354" duration="220000" />
+      <workItem from="1407816097648" duration="3227000" />
+      <workItem from="1407819957247" duration="1992000" />
+      <workItem from="1407897150144" duration="7917000" />
+      <workItem from="1407987287596" duration="5642000" />
+      <workItem from="1408585431465" duration="11273000" />
+      <workItem from="1408598437979" duration="809000" />
+      <workItem from="1408674954647" duration="8499000" />
+      <workItem from="1408848889645" duration="6510000" />
+      <workItem from="1408920812082" duration="4182000" />
+      <workItem from="1409023425776" duration="2376000" />
+      <workItem from="1409026440305" duration="2055000" />
+      <workItem from="1409110583060" duration="3220000" />
+      <workItem from="1409190455111" duration="12198000" />
+      <workItem from="1409280272987" duration="1456000" />
+      <workItem from="1409281861717" duration="5923000" />
+      <workItem from="1409625771207" duration="4925000" />
+      <workItem from="1409797058516" duration="2973000" />
+      <workItem from="1409886400818" duration="235000" />
+      <workItem from="1409886667938" duration="8202000" />
+      <workItem from="1410233771639" duration="5598000" />
+      <workItem from="1410317886478" duration="8645000" />
+      <workItem from="1410487942021" duration="20509000" />
+      <workItem from="1410530898318" duration="13761000" />
+      <workItem from="1410910922157" duration="20780000" />
+      <workItem from="1410937850119" duration="13000" />
+      <workItem from="1410982528162" duration="29353000" />
+      <workItem from="1411099273296" duration="2595000" />
+      <workItem from="1411611444357" duration="1995000" />
+      <workItem from="1411613571018" duration="6677000" />
+      <workItem from="1411695482826" duration="9345000" />
+      <workItem from="1411958422037" duration="11127000" />
+      <workItem from="1412044167339" duration="12364000" />
+      <workItem from="1412127819137" duration="11947000" />
+      <workItem from="1412218439522" duration="50000" />
+      <workItem from="1412218548144" duration="8313000" />
+      <workItem from="1412301554486" duration="11253000" />
+      <workItem from="1412651068214" duration="9251000" />
+      <workItem from="1412824884666" duration="254000" />
+      <workItem from="1412911866746" duration="3788000" />
+      <workItem from="1413341710560" duration="175000" />
+      <workItem from="1413342034700" duration="6916000" />
+      <workItem from="1413349046964" duration="56000" />
+      <workItem from="1413427990677" duration="5328000" />
+      <workItem from="1413658491227" duration="6765000" />
+      <workItem from="1414036671519" duration="14282000" />
+      <workItem from="1414118368322" duration="9770000" />
+      <workItem from="1414208019380" duration="587000" />
+      <workItem from="1414552311903" duration="4476000" />
+      <workItem from="1414558300909" duration="881000" />
+      <workItem from="1414641577482" duration="5009000" />
+      <workItem from="1414722464624" duration="2321000" />
+      <workItem from="1415074857112" duration="2586000" />
+      <workItem from="1415080705189" duration="3158000" />
+      <workItem from="1415240737267" duration="5722000" />
+      <workItem from="1415763921750" duration="8461000" />
+      <workItem from="1415847957730" duration="4182000" />
+      <workItem from="1416366014090" duration="4561000" />
+      <workItem from="1416377140148" duration="1896000" />
+      <workItem from="1416456874256" duration="9638000" />
+      <workItem from="1416541010071" duration="1177000" />
+      <workItem from="1416629174009" duration="9742000" />
+      <workItem from="1416645062208" duration="997000" />
+      <workItem from="1416646085677" duration="4982000" />
+      <workItem from="1416651939159" duration="7968000" />
+      <workItem from="1416801454470" duration="669000" />
+      <workItem from="1416806189047" duration="623000" />
+      <workItem from="1416972649573" duration="2466000" />
+      <workItem from="1416977184380" duration="2645000" />
+      <workItem from="1416979854798" duration="250000" />
+      <workItem from="1416980867687" duration="4091000" />
+      <workItem from="1417056982011" duration="1040000" />
+      <workItem from="1417058663539" duration="4972000" />
+      <workItem from="1417491825614" duration="744000" />
+      <workItem from="1418010294875" duration="1363000" />
+      <workItem from="1418271827331" duration="1189000" />
+      <workItem from="1418580161213" duration="23411000" />
+      <workItem from="1418783507161" duration="740000" />
+      <workItem from="1418878076999" duration="8354000" />
+      <workItem from="1418886569005" duration="3543000" />
+      <workItem from="1419122878973" duration="1887000" />
+      <workItem from="1419352095520" duration="61000" />
+      <workItem from="1421038128882" duration="22000" />
+      <workItem from="1421121270591" duration="2125000" />
+      <workItem from="1421203452359" duration="3106000" />
+      <workItem from="1421296723155" duration="1861000" />
+      <workItem from="1421379269807" duration="597000" />
+      <workItem from="1421813759612" duration="6387000" />
+      <workItem from="1422326049026" duration="9165000" />
+      <workItem from="1422416635432" duration="2701000" />
+      <workItem from="1422507714782" duration="1164000" />
+      <workItem from="1422928492987" duration="4805000" />
+      <workItem from="1423277581527" duration="10333000" />
+      <workItem from="1423712792586" duration="15237000" />
+      <workItem from="1424146280725" duration="290000" />
+      <workItem from="1424225606963" duration="231000" />
+      <workItem from="1424225898754" duration="10195000" />
+      <workItem from="1424399453489" duration="653000" />
+      <workItem from="1424406311673" duration="1114000" />
+      <workItem from="1424872170847" duration="24624000" />
+      <workItem from="1425031383858" duration="11947000" />
+      <workItem from="1425373480047" duration="31499000" />
+      <workItem from="1425841976740" duration="898000" />
+      <workItem from="1425925806712" duration="28913000" />
+      <workItem from="1426667984361" duration="16484000" />
+      <workItem from="1426689834788" duration="26411000" />
+      <workItem from="1426785917098" duration="70957000" />
+      <workItem from="1427227155177" duration="278000" />
+      <workItem from="1427278781346" duration="43822000" />
+      <workItem from="1427378830130" duration="33447000" />
+      <workItem from="1427484728437" duration="53770000" />
+      <workItem from="1427970548816" duration="2620000" />
+      <workItem from="1428414380542" duration="1352000" />
+      <workItem from="1428995855488" duration="1932000" />
+      <workItem from="1429003100530" duration="23754000" />
+      <workItem from="1429214115556" duration="63000" />
+      <workItem from="1429717753297" duration="2276000" />
+      <workItem from="1429724139369" duration="4673000" />
+      <workItem from="1429809126788" duration="10825000" />
+      <workItem from="1429832071145" duration="3562000" />
+      <workItem from="1429895827841" duration="5533000" />
+      <workItem from="1429921305074" duration="12887000" />
+      <workItem from="1430018496035" duration="714000" />
+      <workItem from="1430067252666" duration="445000" />
+      <workItem from="1430082116206" duration="16459000" />
+      <workItem from="1430261510799" duration="6906000" />
+      <workItem from="1430324695481" duration="882000" />
+      <workItem from="1430411214454" duration="5056000" />
+      <workItem from="1430521661280" duration="1921000" />
+      <workItem from="1430703375980" duration="623000" />
+      <workItem from="1430725918362" duration="68000" />
+      <workItem from="1430726027678" duration="16479000" />
+      <workItem from="1430859565833" duration="420000" />
+      <workItem from="1430873074723" duration="18659000" />
+      <workItem from="1430950882516" duration="26022000" />
+      <workItem from="1431098429783" duration="1875000" />
+      <workItem from="1431126327432" duration="2642000" />
+      <workItem from="1431284024039" duration="2608000" />
+      <workItem from="1431359272836" duration="7811000" />
+      <workItem from="1431380556245" duration="2584000" />
+      <workItem from="1431455775870" duration="10179000" />
+      <workItem from="1431636527078" duration="3221000" />
+      <workItem from="1431728045046" duration="944000" />
+      <workItem from="1431973541091" duration="9890000" />
+      <workItem from="1432079548996" duration="6239000" />
+      <workItem from="1432150389627" duration="12148000" />
+      <workItem from="1432272832943" duration="4798000" />
+      <workItem from="1432311108368" duration="15712000" />
+      <workItem from="1432593914938" duration="621000" />
+      <workItem from="1432655293090" duration="7414000" />
+      <workItem from="1432707673709" duration="1321000" />
+      <workItem from="1432835313399" duration="5549000" />
+      <workItem from="1432943487210" duration="183000" />
+      <workItem from="1433113055944" duration="779000" />
+      <workItem from="1433125047194" duration="615000" />
+      <workItem from="1433171939550" duration="12591000" />
+      <workItem from="1433195861248" duration="19895000" />
+      <workItem from="1433292344831" duration="11268000" />
+      <workItem from="1433373978661" duration="4363000" />
+      <workItem from="1433435163570" duration="8374000" />
+      <workItem from="1433448821515" duration="4976000" />
+      <workItem from="1433559163817" duration="65000" />
+      <workItem from="1433754844120" duration="5072000" />
+      <workItem from="1433816417164" duration="7917000" />
+      <workItem from="1433862081803" duration="21975000" />
+      <workItem from="1433924453624" duration="9611000" />
+      <workItem from="1433999384420" duration="1605000" />
+      <workItem from="1434002229044" duration="6121000" />
+      <workItem from="1434173192463" duration="845000" />
+      <workItem from="1434336345061" duration="1002000" />
+      <workItem from="1434386381544" duration="1996000" />
+      <workItem from="1434407449921" duration="6643000" />
+      <workItem from="1436192986748" duration="1755000" />
+      <workItem from="1436197865133" duration="3315000" />
+      <workItem from="1438297976560" duration="1338000" />
+      <workItem from="1438348507519" duration="15545000" />
+      <workItem from="1438397031658" duration="11127000" />
+      <workItem from="1438448356343" duration="1554000" />
+      <workItem from="1438608338205" duration="18900000" />
+      <workItem from="1438657294156" duration="911000" />
+      <workItem from="1438694345623" duration="5732000" />
+      <workItem from="1438786990332" duration="1947000" />
+      <workItem from="1438811073465" duration="25930000" />
+      <workItem from="1438954246874" duration="746000" />
+      <workItem from="1438955759178" duration="21504000" />
+      <workItem from="1439041893504" duration="2632000" />
+      <workItem from="1439215259791" duration="25889000" />
+      <workItem from="1439298609946" duration="20842000" />
+      <workItem from="1439386442486" duration="13592000" />
+      <workItem from="1439471651226" duration="13854000" />
+      <workItem from="1439509352517" duration="649000" />
+      <workItem from="1439561171304" duration="8474000" />
+      <workItem from="1439645141733" duration="11062000" />
+      <workItem from="1439822083872" duration="7516000" />
+      <workItem from="1439910226158" duration="16030000" />
+      <workItem from="1439992801204" duration="20674000" />
+      <workItem from="1440163577484" duration="29067000" />
+      <workItem from="1440340268024" duration="3904000" />
+      <workItem from="1440422672701" duration="4202000" />
+      <workItem from="1440433727053" duration="7388000" />
+      <workItem from="1440515045765" duration="11302000" />
+      <workItem from="1440550671217" duration="1903000" />
+      <workItem from="1440595386168" duration="7710000" />
+      <workItem from="1440682153033" duration="1092000" />
+      <workItem from="1440686326126" duration="3493000" />
+      <workItem from="1440771643282" duration="4014000" />
+      <workItem from="1440898654889" duration="902000" />
+      <workItem from="1441033884106" duration="32000" />
+      <workItem from="1441035009163" duration="12260000" />
+      <workItem from="1441114937906" duration="10908000" />
+      <workItem from="1441207228773" duration="2998000" />
+      <workItem from="1441286407757" duration="6853000" />
+      <workItem from="1441375448692" duration="2525000" />
+      <workItem from="1441460155475" duration="4017000" />
+      <workItem from="1441632836311" duration="10232000" />
+      <workItem from="1441718978195" duration="5615000" />
+      <workItem from="1441806231482" duration="7931000" />
+      <workItem from="1441891749160" duration="8093000" />
+      <workItem from="1441979235341" duration="2321000" />
+      <workItem from="1442066050933" duration="2408000" />
+      <workItem from="1442239453240" duration="2297000" />
+      <workItem from="1442334351257" duration="645000" />
+      <workItem from="1442524534310" duration="1214000" />
+      <workItem from="1442614121526" duration="747000" />
+      <workItem from="1442676025059" duration="1991000" />
+      <workItem from="1442846955429" duration="7077000" />
+      <workItem from="1442875315977" duration="1340000" />
+      <workItem from="1442930063856" duration="1213000" />
+      <workItem from="1442935685832" duration="2726000" />
+      <workItem from="1442944219029" duration="2825000" />
+      <workItem from="1443022064947" duration="7798000" />
+      <workItem from="1443102278785" duration="14320000" />
+      <workItem from="1443188742431" duration="14624000" />
+      <workItem from="1443274458938" duration="1616000" />
+      <workItem from="1443277057838" duration="65000" />
+      <workItem from="1443277286963" duration="55000" />
+      <workItem from="1443277357411" duration="614000" />
+      <workItem from="1443450583831" duration="1076000" />
+      <workItem from="1443451688430" duration="1539000" />
+      <workItem from="1443453435272" duration="28000" />
+      <workItem from="1448475595745" duration="1407000" />
+      <workItem from="1448555640378" duration="4061000" />
+      <workItem from="1448728730475" duration="739000" />
+      <workItem from="1448952712918" duration="650000" />
+      <workItem from="1449275420980" duration="838000" />
+      <workItem from="1449331302215" duration="2889000" />
+      <workItem from="1449515589833" duration="18465000" />
+      <workItem from="1449767063661" duration="1731000" />
+      <workItem from="1449849467522" duration="7086000" />
+      <workItem from="1450105000196" duration="12379000" />
+      <workItem from="1450193646444" duration="2259000" />
+      <workItem from="1450279095424" duration="4423000" />
+      <workItem from="1450364109398" duration="3885000" />
+      <workItem from="1450537103303" duration="1283000" />
+      <workItem from="1450717470890" duration="650000" />
+      <workItem from="1450798076688" duration="9859000" />
+      <workItem from="1451317882767" duration="9682000" />
+      <workItem from="1451571812812" duration="1964000" />
+      <workItem from="1451746954266" duration="664000" />
+      <workItem from="1451949878107" duration="714000" />
+      <workItem from="1451954314716" duration="654000" />
+      <workItem from="1452008758981" duration="3745000" />
+      <workItem from="1452101803398" duration="7776000" />
+      <workItem from="1452181943086" duration="13649000" />
+      <workItem from="1452525896705" duration="12656000" />
+      <workItem from="1452616811355" duration="42516000" />
+      <workItem from="1453126505904" duration="35478000" />
+      <workItem from="1453392528296" duration="10589000" />
+      <workItem from="1453694496924" duration="1384000" />
+      <workItem from="1453735788794" duration="16916000" />
+      <workItem from="1453822623552" duration="13107000" />
+      <workItem from="1453922227107" duration="3711000" />
+      <workItem from="1453990396015" duration="12643000" />
+      <workItem from="1454106659011" duration="2838000" />
+      <workItem from="1454425819681" duration="1182000" />
+      <workItem from="1454441069037" duration="5062000" />
+      <workItem from="1454504889964" duration="2901000" />
+      <workItem from="1454530126773" duration="643000" />
+      <workItem from="1454690926547" duration="4610000" />
+      <workItem from="1454767732341" duration="2952000" />
+      <workItem from="1454945375987" duration="9246000" />
+      <workItem from="1455032138148" duration="3673000" />
+      <workItem from="1455202177260" duration="3004000" />
+      <workItem from="1455547912384" duration="92931000" />
+      <workItem from="1456259431536" duration="25830000" />
+      <workItem from="1456527153412" duration="1868000" />
+      <workItem from="1456762646982" duration="53539000" />
+      <workItem from="1457018231781" duration="2000" />
+      <workItem from="1457018244200" duration="31870000" />
+      <workItem from="1457360372528" duration="38060000" />
+      <workItem from="1457620839608" duration="4493000" />
+      <workItem from="1457975087144" duration="9503000" />
+      <workItem from="1458245580983" duration="1366000" />
+      <workItem from="1458311137675" duration="3040000" />
+      <workItem from="1458668128304" duration="1677000" />
+      <workItem from="1458742590777" duration="6263000" />
+      <workItem from="1458938259144" duration="925000" />
+      <workItem from="1459175043523" duration="1330000" />
+      <workItem from="1459262029784" duration="15582000" />
+      <workItem from="1459435900423" duration="3911000" />
+      <workItem from="1459460769772" duration="7121000" />
+      <workItem from="1459521230326" duration="2834000" />
+      <workItem from="1459608849061" duration="1301000" />
+      <workItem from="1459789023053" duration="19161000" />
+      <workItem from="1459949779788" duration="6133000" />
+      <workItem from="1460050071250" duration="7810000" />
+      <workItem from="1460382500173" duration="2460000" />
+      <workItem from="1460562743830" duration="4345000" />
+      <workItem from="1460760014383" duration="1002000" />
+      <workItem from="1460817813175" duration="982000" />
+      <workItem from="1460857566076" duration="591000" />
+      <workItem from="1460990956828" duration="5314000" />
+      <workItem from="1461158917996" duration="1287000" />
+      <workItem from="1461173883317" duration="3069000" />
+      <workItem from="1461253290096" duration="2780000" />
+      <workItem from="1461333272091" duration="2932000" />
+      <workItem from="1461381023600" duration="8541000" />
+      <workItem from="1461590615654" duration="6929000" />
+      <workItem from="1461764307938" duration="4063000" />
+      <workItem from="1461870381281" duration="778000" />
+      <workItem from="1461939411054" duration="11005000" />
+      <workItem from="1462281534387" duration="3054000" />
+      <workItem from="1462377211084" duration="1351000" />
+      <workItem from="1462563519402" duration="1195000" />
+      <workItem from="1462889863301" duration="1224000" />
+      <workItem from="1463002021652" duration="2797000" />
+      <workItem from="1463068698359" duration="5505000" />
+      <workItem from="1463494488431" duration="1660000" />
+      <workItem from="1463778681630" duration="5694000" />
+      <workItem from="1464098670253" duration="627000" />
+      <workItem from="1464105660032" duration="755000" />
+      <workItem from="1464363649953" duration="2767000" />
+      <workItem from="1464788031180" duration="2415000" />
+      <workItem from="1465658950265" duration="1703000" />
+      <workItem from="1465827919750" duration="1100000" />
+      <workItem from="1466006076964" duration="712000" />
+      <workItem from="1466031693369" duration="52000" />
+      <workItem from="1466084633379" duration="12635000" />
+      <workItem from="1466171550688" duration="52000" />
+      <workItem from="1466172845334" duration="607000" />
+      <workItem from="1466183438656" duration="3559000" />
+      <workItem from="1466256994031" duration="2211000" />
+      <workItem from="1466429086056" duration="1045000" />
+      <workItem from="1466431592124" duration="8451000" />
+      <workItem from="1466547803884" duration="1520000" />
+      <workItem from="1466639633954" duration="128000" />
+      <workItem from="1466689521608" duration="1500000" />
+      <workItem from="1467139453475" duration="455000" />
+      <workItem from="1467381308568" duration="96000" />
+      <workItem from="1467469858413" duration="2254000" />
+      <workItem from="1467639470833" duration="2932000" />
+      <workItem from="1467660130136" duration="1276000" />
+      <workItem from="1467739515222" duration="5339000" />
+      <workItem from="1467810987480" duration="319000" />
+      <workItem from="1468523312140" duration="927000" />
+      <workItem from="1468527404076" duration="1715000" />
+      <workItem from="1468611163228" duration="2655000" />
+      <workItem from="1468676844452" duration="504000" />
+      <workItem from="1469744136806" duration="5562000" />
+      <workItem from="1469797731076" duration="345000" />
+      <workItem from="1470320414605" duration="6352000" />
+      <workItem from="1470409432855" duration="3525000" />
+      <workItem from="1470606371180" duration="23000" />
+      <workItem from="1470664223648" duration="183000" />
+      <workItem from="1470665201683" duration="3047000" />
+      <workItem from="1470817803244" duration="61000" />
+      <workItem from="1470931859186" duration="4023000" />
+      <workItem from="1471443107295" duration="2289000" />
+      <workItem from="1471534677359" duration="3500000" />
+      <workItem from="1471623236179" duration="5065000" />
+      <workItem from="1471699958981" duration="592000" />
+      <workItem from="1472051542326" duration="30000" />
+      <workItem from="1472059167622" duration="91000" />
+      <workItem from="1474396366874" duration="1485000" />
+      <workItem from="1474410884763" duration="5281000" />
+      <workItem from="1474550868939" duration="65000" />
+      <workItem from="1474904357722" duration="24000" />
+      <workItem from="1475520065979" duration="1325000" />
+      <workItem from="1475848430743" duration="7652000" />
+      <workItem from="1475941272814" duration="335000" />
+      <workItem from="1475941627727" duration="45000" />
+      <workItem from="1475941701116" duration="3582000" />
+      <workItem from="1476107372342" duration="777000" />
+      <workItem from="1476214032396" duration="9457000" />
+      <workItem from="1476369316523" duration="7180000" />
+      <workItem from="1476828328887" duration="13049000" />
+      <workItem from="1477318183223" duration="579000" />
+      <workItem from="1477505400498" duration="1757000" />
+      <workItem from="1477945819439" duration="786000" />
+      <workItem from="1479578323113" duration="667000" />
+      <workItem from="1479826280729" duration="14502000" />
+      <workItem from="1480000082214" duration="4520000" />
+      <workItem from="1480370945497" duration="688000" />
+      <workItem from="1480631166924" duration="4354000" />
+      <workItem from="1480783865100" duration="659000" />
+      <workItem from="1481209300408" duration="2287000" />
+      <workItem from="1481813391739" duration="2548000" />
+      <workItem from="1483380239326" duration="5305000" />
+      <workItem from="1484064197707" duration="4612000" />
+      <workItem from="1485451414937" duration="1029000" />
+      <workItem from="1486156034495" duration="2600000" />
+      <workItem from="1486997013502" duration="1942000" />
+      <workItem from="1489444253262" duration="58000" />
+      <workItem from="1490739179094" duration="862000" />
+      <workItem from="1494083263030" duration="1669000" />
+      <workItem from="1494602652132" duration="1297000" />
+      <workItem from="1494947897771" duration="847000" />
+      <workItem from="1496255954354" duration="737000" />
+      <workItem from="1498772624126" duration="1271000" />
+      <workItem from="1502722080620" duration="733000" />
+      <workItem from="1502899055207" duration="393000" />
+      <workItem from="1502899623095" duration="37000" />
+      <workItem from="1505742202857" duration="779000" />
+      <workItem from="1505925814298" duration="599000" />
+      <workItem from="1506788659338" duration="1300000" />
+      <workItem from="1507054517855" duration="185000" />
+      <workItem from="1507648334915" duration="613000" />
+      <workItem from="1507827063141" duration="2699000" />
+      <workItem from="1507902621102" duration="29000" />
+      <workItem from="1507903127877" duration="1981000" />
+      <workItem from="1510615177529" duration="1212000" />
+      <workItem from="1510672501849" duration="4483000" />
+      <workItem from="1510694793340" duration="1497000" />
+      <workItem from="1510781847617" duration="147000" />
+      <workItem from="1510782228683" duration="768000" />
+      <workItem from="1510848221517" duration="2787000" />
+      <workItem from="1510873996549" duration="1225000" />
+      <workItem from="1511457309588" duration="379000" />
+      <workItem from="1511799582824" duration="846000" />
+      <workItem from="1518189015400" duration="3737000" />
+      <workItem from="1519145510369" duration="2106000" />
+      <workItem from="1519319075744" duration="3929000" />
+      <workItem from="1519406200942" duration="4164000" />
+      <workItem from="1519447179030" duration="248000" />
+      <workItem from="1519481455247" duration="128000" />
+      <workItem from="1520488477872" duration="1472000" />
+      <workItem from="1520528101600" duration="19079000" />
+      <workItem from="1520606039356" duration="26947000" />
+      <workItem from="1520692023287" duration="2388000" />
+      <workItem from="1520870375180" duration="2504000" />
+      <workItem from="1520955267495" duration="2060000" />
+      <workItem from="1522163702452" duration="12466000" />
+      <workItem from="1522198922363" duration="20000" />
+      <workItem from="1522246537530" duration="55000" />
+      <workItem from="1522256774867" duration="1696000" />
+      <workItem from="1522684628821" duration="4370000" />
+      <workItem from="1522763946271" duration="4890000" />
+      <workItem from="1522769999392" duration="386000" />
+      <workItem from="1522770695518" duration="522000" />
+      <workItem from="1522771862794" duration="1219000" />
+      <workItem from="1522776103895" duration="417000" />
+      <workItem from="1523281093980" duration="1163000" />
+      <workItem from="1524151133996" duration="399000" />
+      <workItem from="1527005708164" duration="239000" />
+      <workItem from="1527011751118" duration="12938000" />
+      <workItem from="1527173284396" duration="154000" />
+      <workItem from="1527173599592" duration="46000" />
+      <workItem from="1527179662788" duration="2830000" />
+      <workItem from="1527255460792" duration="992000" />
+      <workItem from="1527516425225" duration="3920000" />
+      <workItem from="1527602305078" duration="9493000" />
+      <workItem from="1527633801134" duration="1419000" />
+      <workItem from="1527686850331" duration="6082000" />
+      <workItem from="1527699280563" duration="6008000" />
+    </task>
+    <task id="LOCAL-00069" summary="log de errores en captura de detalle">
+      <created>1414046820031</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1414046820031</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix de rimpresion de reporte">
+      <created>1414123878424</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1414123878424</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix de rimpresion de reporte">
+      <created>1414124008289</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1414124008289</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix de rimpresion de reporte">
+      <created>1414125632788</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1414125632788</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix de rimpresion de reporte">
+      <created>1414128358501</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1414128358501</updated>
+    </task>
+    <task id="LOCAL-00074" summary="se agrega campo de peso en registro de vehiculo">
+      <created>1414559075724</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1414559075725</updated>
+    </task>
+    <task id="LOCAL-00075" summary="captura total de pesos en regentrada">
+      <created>1414649542152</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1414649542152</updated>
+    </task>
+    <task id="LOCAL-00076" summary="fix de rimpresion de reporte">
+      <created>1415243663020</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1415243663020</updated>
+    </task>
+    <task id="LOCAL-00077" summary="correccion de validacion de string a float">
+      <created>1415248637818</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1415248637818</updated>
+    </task>
+    <task id="LOCAL-00078" summary="lista de pre registro de vigilancia">
+      <created>1415773016077</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1415773016077</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix de rimpresion de reporte">
+      <created>1415854687634</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1415854687634</updated>
+    </task>
+    <task id="LOCAL-00080" summary="inicio envio de mail de salida">
+      <created>1416377056229</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1416377056229</updated>
+    </task>
+    <task id="LOCAL-00081" summary="cambio de pdf">
+      <created>1416466644836</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1416466644836</updated>
+    </task>
+    <task id="LOCAL-00082" summary="fix de rimpresion de reporte">
+      <created>1416466959419</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1416466959419</updated>
+    </task>
+    <task id="LOCAL-00083" summary="ajuste perfil de vigilante">
+      <created>1416632259432</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1416632259432</updated>
+    </task>
+    <task id="LOCAL-00084" summary="ajuste perfil admisiones">
+      <created>1416633533018</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1416633533019</updated>
+    </task>
+    <task id="LOCAL-00085" summary="role almacenista">
+      <created>1416636895160</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1416636895160</updated>
+    </task>
+    <task id="LOCAL-00086" summary="cambio para mostrar nombre de usuario logeado">
+      <created>1416646275814</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1416646275814</updated>
+    </task>
+    <task id="LOCAL-00087" summary="role almacenista">
+      <created>1416647633573</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1416647633573</updated>
+    </task>
+    <task id="LOCAL-00088" summary="migracion cambio de imagen">
+      <created>1416651227584</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1416651227584</updated>
+    </task>
+    <task id="LOCAL-00089" summary="migracion look">
+      <created>1416652876031</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1416652876031</updated>
+    </task>
+    <task id="LOCAL-00090" summary="cambio de consulta para impresion de entrada">
+      <created>1416982276125</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1416982276125</updated>
+    </task>
+    <task id="LOCAL-00091" summary="firx error al imprimir entradas">
+      <created>1416982707348</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1416982707348</updated>
+    </task>
+    <task id="LOCAL-00092" summary="cambio de mensaje de correo de salida">
+      <created>1417062413247</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1417062413247</updated>
+    </task>
+    <task id="LOCAL-00093" summary="cambios de archivo de modificaciones">
+      <created>1418588061934</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1418588061934</updated>
+    </task>
+    <task id="LOCAL-00094" summary="cambios en pdf">
+      <created>1418590799576</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1418590799576</updated>
+    </task>
+    <task id="LOCAL-00095" summary="cambio de formatos">
+      <created>1418604036495</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1418604036495</updated>
+    </task>
+    <task id="LOCAL-00096" summary="cambios a PDF formato">
+      <created>1418608116802</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1418608116802</updated>
+    </task>
+    <task id="LOCAL-00097" summary="cambio de pedimento">
+      <created>1418614350234</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1418614350234</updated>
+    </task>
+    <task id="LOCAL-00098" summary="role almacenista">
+      <created>1418615252183</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1418615252183</updated>
+    </task>
+    <task id="LOCAL-00099" summary="validacion de salida para solo un usuario">
+      <created>1418886622159</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1418886622159</updated>
+    </task>
+    <task id="LOCAL-00100" summary="validacion">
+      <created>1418886708581</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1418886708581</updated>
+    </task>
+    <task id="LOCAL-00101" summary="validacion de entradas">
+      <created>1418887731268</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1418887731269</updated>
+    </task>
+    <task id="LOCAL-00102" summary="cambios a pdf">
+      <created>1421816752253</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1421816752253</updated>
+    </task>
+    <task id="LOCAL-00103" summary="pdf cambio de fecha por local espanol">
+      <created>1421817222350</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1421817222350</updated>
+    </task>
+    <task id="LOCAL-00104" summary="cambio en respuesta de jsp">
+      <created>1421818626610</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1421818626610</updated>
+    </task>
+    <task id="LOCAL-00105" summary="paso de fecha para pdf">
+      <created>1421819055372</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1421819055373</updated>
+    </task>
+    <task id="LOCAL-00106" summary="group by rd">
+      <created>1421819980915</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1421819980915</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Reporte de entradas">
+      <created>1422333683827</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1422333683827</updated>
+    </task>
+    <task id="LOCAL-00108" summary="reportes de salida">
+      <created>1422337727241</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1422337727241</updated>
+    </task>
+    <task id="LOCAL-00109" summary="cambio de reporte pdf">
+      <created>1422508268969</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1422508268969</updated>
+    </task>
+    <task id="LOCAL-00110" summary="firma de cliente para pdf">
+      <created>1422930565923</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1422930565924</updated>
+    </task>
+    <task id="LOCAL-00111" summary="folio de salida para reportes de salida">
+      <created>1422931993246</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1422931993246</updated>
+    </task>
+    <task id="LOCAL-00112" summary="role almacenista">
+      <created>1423285196195</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1423285196195</updated>
+    </task>
+    <task id="LOCAL-00113" summary="cambios">
+      <created>1423285272474</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1423285272474</updated>
+    </task>
+    <task id="LOCAL-00114" summary="role almacenista">
+      <created>1423719708574</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1423719708574</updated>
+    </task>
+    <task id="LOCAL-00115" summary="cambio reporte pdf">
+      <created>1423727397035</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1423727397035</updated>
+    </task>
+    <task id="LOCAL-00116" summary="role almacenista">
+      <created>1423727482272</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1423727482272</updated>
+    </task>
+    <task id="LOCAL-00117" summary="role almacenista">
+      <created>1424236050371</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1424236050371</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3414301000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33509833" side_tool="true" weight="0.38110235" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32843137" />
+      <window_info anchor="right" id="Maven Projects" order="12" weight="0.13399693" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49865228" weight="0.15204236" />
+      <window_info id="Structure" order="1" sideWeight="0.49868765" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="13" sideWeight="0.5013477" side_tool="true" weight="0.15256798" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" x="13" y="319" width="1366" height="317" id="Debug" order="4" sideWeight="0.74244714" weight="0.46568626" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3284055" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.31653544" />
+      <window_info id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32843137" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.28104576" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6649017" weight="0.41102362" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3267974" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.31535947" />
+      <window_info id="Persistence" order="7" sideWeight="0.5187032" side_tool="true" weight="0.29425114" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48129675" visible="true" weight="0.24231333" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32854986" />
+      <window_info id="Web" order="8" sideWeight="0.4664723" side_tool="true" weight="0.25988287" />
+      <window_info id="Learn" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="10" sideWeight="0.49375" side_tool="true" weight="0.26359516" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Changes" order="16" weight="0.34150326" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32899022" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="0" weight="0.25" />
+      <window_info anchor="right" id="IDEtalk" order="11" weight="0.32779455" />
+      <window_info anchor="right" id="Module Dependencies" order="9" weight="0.329429" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4003021" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="migracion look" />
+    <MESSAGE value="cambio de consulta para impresion de entrada" />
+    <MESSAGE value="firx error al imprimir entradas" />
+    <MESSAGE value="cambio de mensaje de correo de salida" />
+    <MESSAGE value="cambios de archivo de modificaciones" />
+    <MESSAGE value="cambios en pdf" />
+    <MESSAGE value="cambio de formatos" />
+    <MESSAGE value="cambios a PDF formato" />
+    <MESSAGE value="cambio de pedimento" />
+    <MESSAGE value="validacion de salida para solo un usuario" />
+    <MESSAGE value="validacion" />
+    <MESSAGE value="validacion de entradas" />
+    <MESSAGE value="cambios a pdf" />
+    <MESSAGE value="pdf cambio de fecha por local espanol" />
+    <MESSAGE value="cambio en respuesta de jsp" />
+    <MESSAGE value="paso de fecha para pdf" />
+    <MESSAGE value="group by rd" />
+    <MESSAGE value="Reporte de entradas" />
+    <MESSAGE value="reportes de salida" />
+    <MESSAGE value="cambio de reporte pdf" />
+    <MESSAGE value="firma de cliente para pdf" />
+    <MESSAGE value="folio de salida para reportes de salida" />
+    <MESSAGE value="cambios" />
+    <MESSAGE value="cambio reporte pdf" />
+    <MESSAGE value="role almacenista" />
+    <option name="LAST_COMMIT_MESSAGE" value="role almacenista" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresosDetalle.jsp</url>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/factory/catalogo/ClienteCatalogo.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/factory/catalogo/CatalogoFactory.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleEntradasManagerImpl.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/PreVehiculoDaoImpl.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdEntradaImpresion.jsp</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/MailManagerImpl.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/MailManagerImpl.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/MailManagerImpl.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSalPorFechaClienteController.java</url>
+          <line>192</line>
+          <properties />
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SecurityDaoImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SecurityManagerImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SecurityDaoImpl.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UsuarioDao.java</url>
+          <line>8</line>
+          <properties class="com.cbj.almacen.repository.UsuarioDao" method="getUsuarioByUsername" />
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/UbicacionesDao.java</url>
+          <line>11</line>
+          <properties class="com.cbj.almacen.repository.UbicacionesDao" method="updateUbicacion" />
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="650" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ImprimirSalidasManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/PdfSalidasManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/insertaNota.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="74" column="69" selection-start-line="71" selection-start-column="60" selection-end-line="74" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/modificaciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/tiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7735">
+          <caret line="455" column="67" selection-start-line="455" selection-start-column="67" selection-end-line="455" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13549">
+          <caret line="797" column="63" selection-start-line="797" selection-start-column="63" selection-end-line="797" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tablaModificaciones.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="72" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/imprimirSalida.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/impSal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/SalidasDetalleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SalidasDetalleManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaSalidasImp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradasDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/PdfSalidasManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/salidasImp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/SalidasDetalleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/SalidasDetalle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/SalidasDetalleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="165" column="16" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="180" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formatoingreso.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5950">
+          <caret line="350" column="12" selection-start-line="350" selection-start-column="12" selection-end-line="350" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="190" selection-start-line="31" selection-start-column="190" selection-end-line="31" selection-end-column="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirSalidasManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="154" column="31" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirEntradasManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="319" column="149" selection-start-line="319" selection-start-column="149" selection-end-line="319" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/borraUbicacion.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/buscaDetalleHistoria.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/controlTunel.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDia.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/capturaIngresos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jsonArla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="26" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/jolvera/Documents/workspace-sts-3.1.0.RELEASE/Almacen/target/m2e-wtp/web-resources/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/almacen.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="97" column="124" selection-start-line="97" selection-start-column="124" selection-end-line="97" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#42957#42958#0" expanded="true" />
+            <element signature="e#43001#43002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>almacen:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (almacen)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>almacen</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: jstl:jstl:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42988506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
