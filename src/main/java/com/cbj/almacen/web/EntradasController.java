@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
+import org.springframework.http.MediaType;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.GrantedAuthorityImpl;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -20,6 +21,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -94,8 +97,8 @@ public class EntradasController {
         return "20";
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
-    @RequestMapping(value = "/cuotasJson", produces="application/json; charset=UTF-8", headers = "Accept=application/json", method = RequestMethod.GET)
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/cuotasJson", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"},  method = RequestMethod.GET)
     public @ResponseBody List<Convenios> cuotasJson(HttpServletResponse response){
         String clientes = "550, 551, 552, 606, 650, 1550, 1551, 1650, 1651, 2550";
         List<Convenios> conveniosList = new ArrayList<Convenios>();
