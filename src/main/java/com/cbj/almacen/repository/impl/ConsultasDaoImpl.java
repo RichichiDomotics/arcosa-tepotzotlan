@@ -1,11 +1,13 @@
 package com.cbj.almacen.repository.impl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
+import org.hibernate.QueryException;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -77,5 +79,17 @@ public class ConsultasDaoImpl implements ConsultasDao {
     public List<Object[]> getVehiculoRDSinCapturar() {
         return em.createQuery("select p.consecutivo, v.idIngresoVehiculo from RegEntradas p, Vehiculo v where p.idIngresoVehiculo=v.idIngresoVehiculo and v.status='1'")
                 .getResultList();
+    }
+
+    @Transactional(readOnly = true)
+    @SuppressWarnings("unchecked")
+    public List<VistaIngreso> getArlaVehiculos(String clientes){
+        try{
+            Query query = em.createQuery("SELECT c FROM VistaIngreso c where c.status='1' and c.tipoMovimiento='1111' and c.idCliente in ("+clientes+")");
+            return query.getResultList();
+        }catch (QueryException e){
+            e.printStackTrace();
+            return new ArrayList<VistaIngreso>();
+        }
     }
 }

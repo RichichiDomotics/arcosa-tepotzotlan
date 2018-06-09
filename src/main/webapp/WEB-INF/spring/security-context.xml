@@ -12,6 +12,8 @@
     <security:http pattern="/resources/pdf/**" security="none" />
     <security:http pattern="/cuotasJson" security="none"/>
     <security:http pattern="/arlaJson" security="none"/>
+    <security:http pattern="/vehiculoJson" security="none"/>
+    <security:http pattern="/generarrdarla" security="none"/>
     <security:http pattern="/service**" security="none" />
     <security:http auto-config="true">
         <!--security:intercept-url pattern="/v_*" access="ROLE_VIGILANTE,ROLE_ADMIN" />

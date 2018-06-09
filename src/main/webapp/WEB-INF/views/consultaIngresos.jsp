@@ -44,12 +44,18 @@
     </tr>
     </c:forEach>
        <tr>
-    <td colspan="8" align="center">
+    <td colspan="6" align="center">
     	<button class="btn btn-primary btn-small" type="submit">
 			<i class="icon-edit  bigger-125"></i>
 			Consultar
 		</button>
     </td>
+           <td colspan="4">
+               <a href="#" target="_blank" class="btn btn-success btn-small next">
+                   <i class="icon-edit  bigger-125"></i>
+                  Vehiculos de ARLA
+               </a>
+           </td>
     </tr>
   </table>
   <br>

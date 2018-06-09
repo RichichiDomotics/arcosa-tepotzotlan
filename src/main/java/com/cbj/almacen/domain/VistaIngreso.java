@@ -10,16 +10,16 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
-
+@XmlRootElement
 @Entity
 @Table(name = "consultaingreso")
 @NamedQueries({
         @NamedQuery(name="VistaIngreso.findByStatusIngreso",
-                query="SELECT c FROM VistaIngreso c where c.status = :status and c.tipoMovimiento='"+ Utils.TIPO_MOVIMIENTO_ENTRADA+"'"),
+                query="SELECT c FROM VistaIngreso c where c.status = :status and c.tipoMovimiento='"+ Utils.TIPO_MOVIMIENTO_ENTRADA+"' and c.idCliente not in (550, 551, 552, 606, 650, 1550, 1551, 1650, 1651, 2550)"),
         @NamedQuery(name="VistaIngreso.findByStatusSalida",
                 query="SELECT c FROM VistaIngreso c where c.status = :status and c.tipoMovimiento='"+ Utils.TIPO_MOVIMIENTO_SALIDA+"'")
-
 })
 public class VistaIngreso implements Serializable {
 

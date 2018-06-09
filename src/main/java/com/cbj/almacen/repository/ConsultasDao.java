@@ -16,4 +16,5 @@ public interface ConsultasDao {
     public List<Clientes> getClientesList();
     public Clientes getConsultaClienteDetList(Integer id);
     public List<Object[]> getVehiculoRDSinCapturar();
+    public List<VistaIngreso> getArlaVehiculos(String clientes);
 }

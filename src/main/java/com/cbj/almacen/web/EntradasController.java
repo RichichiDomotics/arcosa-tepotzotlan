@@ -86,13 +86,25 @@ public class EntradasController {
     /**
      * Simply selects the home view to render by returning its name.
      */
-    @RequestMapping(value = "/arlaJson", method = RequestMethod.POST)
+
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/generarrdarla", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.POST)
+    public @ResponseBody RegEntradas generarrdarla(Integer idCliente, Integer idVehiculo){
+        RegEntradas regEntradas=new RegEntradas();
+        regEntradas.setIdCliente(String.valueOf(idCliente));
+        regEntradas.setIdIngresoVehiculo(idVehiculo);
+        RegEntradas ingreso = this.regEntradasManager.getEntradaByConsecutivo(this.regEntradasManager.registraRegEntrada(regEntradas)).get(0);
+        return ingreso;
+    }
+
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/arlaJson", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.POST)
     public @ResponseBody String arlaJson(@RequestBody JsonArla jsonArla, HttpServletRequest request){
         logger.info("Accion para recuperar un json");
         DetallesRd detallesRd = new DetallesRd();
         Inventario inventario = new Inventario();
         for (int i=0; i<Integer.parseInt(jsonArla.getCantidad());i++){
-
+               
         }
         return "20";
     }

@@ -19,7 +19,7 @@ import java.util.List;
 @Repository(value = "ejecutivoDao")
 public class EjecutivoDaoImpl implements EjecutivoDao{
     private static final Logger logger = LoggerFactory
-            .getLogger(RegEntradasDaoImpl.class);
+            .getLogger(EjecutivoDaoImpl.class);
 
     private EntityManager em = null;
 

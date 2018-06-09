@@ -17,4 +17,5 @@ public interface ConsultasManager extends Serializable {
         public List<Clientes> getClientes();
         public Clientes getCliente(Integer id);
         public List<Object[]> getVehiculoRDSinCapturar();
+        public List<VistaIngreso> getArlaVehiculos(String clientes);
 }

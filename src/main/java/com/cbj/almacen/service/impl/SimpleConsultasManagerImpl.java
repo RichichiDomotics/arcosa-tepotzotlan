@@ -19,9 +19,9 @@ public class SimpleConsultasManagerImpl implements ConsultasManager {
     @Autowired
     private ConsultasDao consultasDao;
 
-    
+
     public List<VistaIngreso> getEntradas() {
-	return consultasDao.getConsultaIngresosList();
+        return consultasDao.getConsultaIngresosList();
     }
 
     public List<VistaIngreso> getEntradasByStatusIngreso(String status) {
@@ -33,15 +33,22 @@ public class SimpleConsultasManagerImpl implements ConsultasManager {
     }
 
     public VistaIngresoDetalle getIngreso(Integer id) {
-    	return consultasDao.getConsultaIngresosDetList(id);
-        }
-    public List<Clientes> getClientes() {
-    	return consultasDao.getClientesList();
-        }
-    
-    public Clientes getCliente(Integer id) {
-    	return consultasDao.getConsultaClienteDetList(id);
-        }
-
-    public List<Object[]> getVehiculoRDSinCapturar(){ return consultasDao.getVehiculoRDSinCapturar();}
+        return consultasDao.getConsultaIngresosDetList(id);
     }
+
+    public List<Clientes> getClientes() {
+        return consultasDao.getClientesList();
+    }
+
+    public Clientes getCliente(Integer id) {
+        return consultasDao.getConsultaClienteDetList(id);
+    }
+
+    public List<Object[]> getVehiculoRDSinCapturar() {
+        return consultasDao.getVehiculoRDSinCapturar();
+    }
+
+    public List<VistaIngreso> getArlaVehiculos(String clientes) {
+        return consultasDao.getArlaVehiculos(clientes);
+    }
+}

@@ -1,5 +1,8 @@
 package com.cbj.almacen.domain;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class JsonArla {
     private String sku;
     private String descripcion;
@@ -12,6 +15,8 @@ public class JsonArla {
     private String presoReal;
     private String fechaCad;
     private boolean editado;
+    private String rd;
+    private String claveProducto;
 
     public String getSku() {
         return sku;
@@ -99,5 +104,21 @@ public class JsonArla {
 
     public void setEditado(boolean editado) {
         this.editado = editado;
+    }
+
+    public String getRd() {
+        return rd;
+    }
+
+    public void setRd(String rd) {
+        this.rd = rd;
+    }
+
+    public String getClaveProducto() {
+        return claveProducto;
+    }
+
+    public void setClaveProducto(String claveProducto) {
+        this.claveProducto = claveProducto;
     }
 }

@@ -7,15 +7,19 @@ import com.cbj.almacen.service.impl.TipoCatalogo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.text.DateFormat;
 import java.util.Calendar;
@@ -76,6 +80,13 @@ public class ConsultasController {
         model.addAttribute("ingresos", this.consultasManager.getEntradasByStatusIngreso("1"));
         model.addAttribute("rdvehiculo", this.consultasManager.getVehiculoRDSinCapturar());
         return "alm_consultaIngresos";
+    }
+
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/vehiculoJson", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.GET)
+    public @ResponseBody  List<VistaIngreso> vehiculoJson(HttpServletResponse response){
+        List<VistaIngreso> vehiculosArla = this.consultasManager.getArlaVehiculos("550, 551, 552, 606, 650, 1550, 1551, 1650, 1651, 2550");
+        return vehiculosArla;
     }
 
     @RequestMapping(value = "/alm_consultaIngresos", method = RequestMethod.POST)
