@@ -86,6 +86,11 @@ public class EntradasController {
     /**
      * Simply selects the home view to render by returning its name.
      */
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/vehiculoRdSinCapturar", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.GET)
+    public @ResponseBody List<Object[]> vehiculoRdSinCapturar(HttpServletResponse response){
+        return this.consultasManager.getVehiculoRDSinCapturar();
+    }
 
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/generarrdarla", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.POST)
