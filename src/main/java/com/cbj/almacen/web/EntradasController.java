@@ -123,7 +123,7 @@ public class EntradasController {
         for (int i=0; i<= jsonArla.getRenglon().length; i++){
             logger.info(String.valueOf(jsonArla.getRenglon().length));//[i][0].toString());
             logger.info(jsonArla.getRenglon().toString());
-            /*
+
             logger.info(jsonArla.getRenglon()[i][1].toString());
             logger.info(jsonArla.getRenglon()[i][2].toString());
             logger.info(jsonArla.getRenglon()[i][3].toString());
@@ -137,7 +137,7 @@ public class EntradasController {
             logger.info(jsonArla.getRenglon()[i][11].toString());
             logger.info(jsonArla.getRenglon()[i][12].toString());
             logger.info(jsonArla.getRenglon()[i][13].toString());
-            logger.info(jsonArla.getRenglon()[i][14].toString());*/
+            logger.info(jsonArla.getRenglon()[i][14].toString());
         }
         return "20";
     }
