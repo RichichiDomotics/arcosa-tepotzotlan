@@ -120,25 +120,24 @@ public class EntradasController {
         logger.info(jsonArla.getAlturaTarima());
         logger.info(jsonArla.getAlturaTarima());
 
-        for (int i=0; i<= jsonArla.getRenglon().length; i++){
-            logger.info(String.valueOf(jsonArla.getRenglon().length));//[i][0].toString());
-            logger.info(jsonArla.getRenglon().toString());
-
-            logger.info(jsonArla.getRenglon()[i][1].toString());
-            logger.info(jsonArla.getRenglon()[i][2].toString());
-            logger.info(jsonArla.getRenglon()[i][3].toString());
-            logger.info(jsonArla.getRenglon()[i][4].toString());
-            logger.info(jsonArla.getRenglon()[i][5].toString());
-            logger.info(jsonArla.getRenglon()[i][6].toString());
-            logger.info(jsonArla.getRenglon()[i][7].toString());
-            logger.info(jsonArla.getRenglon()[i][8].toString());
-            logger.info(jsonArla.getRenglon()[i][9].toString());
-            logger.info(jsonArla.getRenglon()[i][10].toString());
-            logger.info(jsonArla.getRenglon()[i][11].toString());
-            logger.info(jsonArla.getRenglon()[i][12].toString());
-            logger.info(jsonArla.getRenglon()[i][13].toString());
-            logger.info(jsonArla.getRenglon()[i][14].toString());
+        for(JsonRenglon jsonRenglon : jsonArla.getRenglon()){
+            logger.info("cantidad: "+jsonRenglon.getCantidad());
+            logger.info("descripcion: "+jsonRenglon.getDescripcion());
+            logger.info("editado: "+jsonRenglon.isEditado());
+            logger.info("fecha de caducidad: "+jsonRenglon.getFechaCad());
+            logger.info("lote: "+jsonRenglon.getLote());
+            logger.info("marca: "+jsonRenglon.getMarca());
+            logger.info("observaciones: "+jsonRenglon.getObsercacionesMerca());
+            logger.info("peso bruto: "+jsonRenglon.getPesoBruto());
+            logger.info("peso neto: "+jsonRenglon.getPesoNeto());
+            logger.info("peso real: "+jsonRenglon.getPesoReal());
+            logger.info("peso por pieza: "+jsonRenglon.getPesoXpieza());
+            logger.info("pieza por empaque: "+jsonRenglon.getPiezaXempaque());
+            logger.info("presentacion: "+jsonRenglon.getPresentacion());
+            logger.info("sku: "+jsonRenglon.getSku());
+            logger.info("terminado: "+jsonRenglon.getTerminado());
         }
+
         return "20";
     }
 

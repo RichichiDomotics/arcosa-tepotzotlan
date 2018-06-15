@@ -1,7 +1,10 @@
 package com.cbj.almacen.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
+import java.util.List;
 
 @XmlRootElement
 public class JsonArla implements Serializable {
@@ -15,7 +18,8 @@ public class JsonArla implements Serializable {
     private String nivelEstiba;
     private String numTarimas;
     private String rd;
-    private String[][] renglon;
+    @JsonProperty("renglon")
+    private List<JsonRenglon> renglon;
     private String temProd;
     private String temVehi;
     private String tipoalmacenado;
@@ -69,16 +73,6 @@ public class JsonArla implements Serializable {
         this.numTarimas = numTarimas;
     }
 
-
-
-    public Object[][] getRenglon() {
-        return renglon;
-    }
-
-    public void setRenglon(String[][] renglon) {
-        this.renglon = renglon;
-    }
-
     public String getTemProd() {
         return temProd;
     }
@@ -117,5 +111,13 @@ public class JsonArla implements Serializable {
 
     public void setRd(String rd) {
         this.rd = rd;
+    }
+
+    public List<JsonRenglon> getRenglon() {
+        return renglon;
+    }
+
+    public void setRenglon(List<JsonRenglon> renglon) {
+        this.renglon = renglon;
     }
 }
