@@ -8,11 +8,15 @@
   <component name="ChangeListManager">
     <list id="c66c64b8-39fa-45d6-83ff-919b0ce66d2f" name="Failed commit: Default" comment="Revert &quot;Revert &quot;redirecciona a la pagina de consulta&quot;&quot;&#10;&#10;This reverts commit 56314a8dff31739a890f2465d1c6aebe09081700.&#10;" />
     <list default="true" id="bfe8f672-f6da-4095-b442-59c1e8bc9ff6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="almacen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +57,54 @@
       <file leaf-file-name="EntradasController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modificaciones.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/modificaciones.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="formModificacion.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formModificacion.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="InventariosController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2730">
+              <caret line="202" column="77" selection-start-line="202" selection-start-column="77" selection-end-line="202" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventarioDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="113" column="53" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventarioview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -65,70 +112,13 @@
       <file leaf-file-name="JsonRenglon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1527#1528#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1647#1648#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1843#1844#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#2000#2001#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2199#2200#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2275#2276#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-                <element signature="e#2403#2404#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
-                <element signature="e#2476#2477#0" expanded="true" />
-                <element signature="e#2531#2532#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-                <element signature="e#2620#2621#0" expanded="true" />
-                <element signature="e#2655#2656#0" expanded="true" />
-                <element signature="e#2711#2712#0" expanded="true" />
-                <element signature="e#2759#2760#0" expanded="true" />
-                <element signature="e#2789#2790#0" expanded="true" />
-                <element signature="e#2815#2816#0" expanded="true" />
-                <element signature="e#2853#2854#0" expanded="true" />
-                <element signature="e#2883#2884#0" expanded="true" />
-                <element signature="e#2919#2920#0" expanded="true" />
-                <element signature="e#2951#2952#0" expanded="true" />
-                <element signature="e#3001#3002#0" expanded="true" />
-                <element signature="e#3043#3044#0" expanded="true" />
+                <element signature="e#3103#3104#0" expanded="true" />
+                <element signature="e#3135#3136#0" expanded="true" />
+                <element signature="e#3182#3183#0" expanded="true" />
+                <element signature="e#3224#3225#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,59 +127,8 @@
       <file leaf-file-name="JsonArla.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlmacenController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/AlmacenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IngresoVehiculo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/IngresoVehiculo.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="inOutFormVehiculo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutFormVehiculo.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="inOutVehiculo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/inOutVehiculo.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DetallesRd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="52" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleConsultasManagerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="735">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -208,8 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getInventarioReporte</find>
-      <find>findInventarioReporte</find>
       <find>findSalidaByClienteConsecutivo</find>
       <find>consultaSalidaImpresion</find>
       <find>getKilosByDay</find>
@@ -218,6 +155,9 @@
       <find>getConsultaIngresosListByStatusIngreso</find>
       <find>alm_consultaIngresos</find>
       <find>setClienteCantidad</find>
+      <find>pedimento</find>
+      <find>getInventarioReporte</find>
+      <find>findInventarioReporte</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -272,20 +212,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Convenios.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConveniosDaoImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngreso.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/consultaIngresos.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/RegEntradas.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EjecutivoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java" />
       </list>
     </option>
@@ -344,10 +284,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -454,6 +393,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -563,6 +504,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almacen-tepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arcosa-tepotzotlan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -606,8 +564,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -648,7 +604,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/Arcosa-Iztapalapa-ezequiel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.searchVisible" value="true" />
@@ -1696,14 +1652,27 @@
       <workItem from="1528985427848" duration="10540000" />
       <workItem from="1529017692697" duration="931000" />
       <workItem from="1529070893338" duration="7025000" />
-      <workItem from="1529088456909" duration="670000" />
-    </task>
-    <task id="LOCAL-00072" summary="fix de rimpresion de reporte">
-      <created>1414125632788</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1414125632788</updated>
+      <workItem from="1529088456909" duration="5149000" />
+      <workItem from="1529158416334" duration="6992000" />
+      <workItem from="1529328700901" duration="1355000" />
+      <workItem from="1529415820424" duration="7693000" />
+      <workItem from="1529501852909" duration="1991000" />
+      <workItem from="1529587388953" duration="1266000" />
+      <workItem from="1529604103233" duration="25000" />
+      <workItem from="1529677548453" duration="4679000" />
+      <workItem from="1529761487546" duration="2365000" />
+      <workItem from="1529933559142" duration="2476000" />
+      <workItem from="1529947694764" duration="3383000" />
+      <workItem from="1530019284405" duration="4066000" />
+      <workItem from="1530029540735" duration="274000" />
+      <workItem from="1530032038610" duration="1246000" />
+      <workItem from="1530105523437" duration="5134000" />
+      <workItem from="1530139921856" duration="646000" />
+      <workItem from="1530279491437" duration="2370000" />
+      <workItem from="1530365811916" duration="1830000" />
+      <workItem from="1530537981053" duration="2382000" />
+      <workItem from="1530624248583" duration="621000" />
+      <workItem from="1530657851975" duration="657000" />
     </task>
     <task id="LOCAL-00073" summary="fix de rimpresion de reporte">
       <created>1414128358501</created>
@@ -2041,11 +2010,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529018230467</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="recepcion de datos json al controlador para ingreso a la base de datos parte 2">
+      <created>1529089548040</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1529089548041</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3498906000" />
+    <option name="totallyTimeSpent" value="3554836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2057,11 +2033,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="696" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33509833" side_tool="true" weight="0.38110235" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33509833" side_tool="true" weight="0.38054606" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="12" weight="0.13399693" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -2073,18 +2049,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" x="13" y="319" width="1366" height="317" id="Debug" order="4" sideWeight="0.74244714" weight="0.46568626" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3284055" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.31569967" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3143872" />
       <window_info id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32843137" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.28031495" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6649017" visible="true" weight="0.32423207" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6649017" weight="0.3232682" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.31535947" />
       <window_info id="Persistence" order="7" sideWeight="0.5187032" side_tool="true" weight="0.29425114" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48129675" visible="true" weight="0.23863636" />
       <window_info anchor="bottom" id="Problems" order="18" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48129675" visible="true" weight="0.215959" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32854986" />
       <window_info id="Web" order="8" sideWeight="0.4664723" side_tool="true" weight="0.25988287" />
       <window_info id="Learn" order="9" />
@@ -2096,11 +2072,11 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32899022" />
+      <window_info anchor="right" id="Properties" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="0" weight="0.25" />
       <window_info anchor="right" id="IDEtalk" order="11" weight="0.32779455" />
       <window_info anchor="right" id="Module Dependencies" order="9" weight="0.329429" />
-      <window_info anchor="right" id="Properties" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.6" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.59897614" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4003021" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="10" />
@@ -2121,7 +2097,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cambio de mensaje de correo de salida" />
     <MESSAGE value="cambios de archivo de modificaciones" />
     <MESSAGE value="cambios en pdf" />
     <MESSAGE value="cambio de formatos" />
@@ -2146,7 +2121,8 @@
     <MESSAGE value="tepotzotlan codifo flatante" />
     <MESSAGE value="microservicios ARLA" />
     <MESSAGE value="recepcion de datos json al controlador para ingreso a la base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="recepcion de datos json al controlador para ingreso a la base de datos" />
+    <MESSAGE value="recepcion de datos json al controlador para ingreso a la base de datos parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="recepcion de datos json al controlador para ingreso a la base de datos parte 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2273,119 +2249,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="165" column="16" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/detallesRdImpresion.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="180" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formatoingreso.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5950">
-          <caret line="350" column="12" selection-start-line="350" selection-start-column="12" selection-end-line="350" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDiaResponse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirSalidasManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="154" column="31" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ImprimirEntradasManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3417">
-          <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="319" column="149" selection-start-line="319" selection-start-column="149" selection-end-line="319" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/buscaDetalleHistoria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/entradaPorDia.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jsonArla.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/Users/jolvera/Documents/workspace-sts-3.1.0.RELEASE/Almacen/target/m2e-wtp/web-resources/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConveniosDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConveniosManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/ConveniosManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ExportSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2425,13 +2288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -2501,34 +2357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2547,15 +2375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/DetallesRd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
+        <state relative-caret-position="600">
           <caret line="55" column="52" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -2566,97 +2387,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/DetalleRdManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="240">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/VehiculoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradasDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/EntradaRdDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="319" column="149" selection-start-line="319" selection-start-column="149" selection-end-line="319" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/ConsultasDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/ConsultasManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/SimpleConsultasManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="54" column="123" selection-start-line="54" selection-start-column="123" selection-end-line="54" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/ConsultasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/ConsultasDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="99" column="149" selection-start-line="99" selection-start-column="149" selection-end-line="99" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/VistaIngresoDetalle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/SalidasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="166" column="72" selection-start-line="166" selection-start-column="62" selection-end-line="166" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonArla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="735">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/JsonRenglon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#2000#2001#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2199#2200#0" expanded="true" />
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2359#2360#0" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2531#2532#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
-            <element signature="e#2620#2621#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-            <element signature="e#2711#2712#0" expanded="true" />
-            <element signature="e#2759#2760#0" expanded="true" />
-            <element signature="e#2789#2790#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-            <element signature="e#2853#2854#0" expanded="true" />
-            <element signature="e#2883#2884#0" expanded="true" />
-            <element signature="e#2919#2920#0" expanded="true" />
-            <element signature="e#2951#2952#0" expanded="true" />
-            <element signature="e#3001#3002#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+            <element signature="e#3135#3136#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="e#3224#3225#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/InventarioManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/JefeEjecutivoManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/service/impl/InventarioManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/InventariosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="202" column="77" selection-start-line="202" selection-start-column="77" selection-end-line="202" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/repository/impl/InventarioDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="113" column="53" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/Inventarioview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/domain/AutPuertas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/manejoTablas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ventas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2149" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jsonArla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/listadoClientes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/modificaciones.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formModificacion.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cbj/almacen/web/EntradasController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="137" column="64" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
         </state>
       </provider>
     </entry>

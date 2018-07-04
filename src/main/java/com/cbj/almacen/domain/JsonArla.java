@@ -20,8 +20,8 @@ public class JsonArla implements Serializable {
     private String rd;
     @JsonProperty("renglon")
     private List<JsonRenglon> renglon;
-    private String temProd;
-    private String temVehi;
+    private String tempProd;
+    private String tempVehi;
     private String tipoalmacenado;
     private String valMerca;
 
@@ -73,20 +73,20 @@ public class JsonArla implements Serializable {
         this.numTarimas = numTarimas;
     }
 
-    public String getTemProd() {
-        return temProd;
+    public String getTempProd() {
+        return tempProd;
     }
 
-    public void setTemProd(String temProd) {
-        this.temProd = temProd;
+    public void setTempProd(String tempProd) {
+        this.tempProd = tempProd;
     }
 
-    public String getTemVehi() {
-        return temVehi;
+    public String getTempVehi() {
+        return tempVehi;
     }
 
-    public void setTemVehi(String temVehi) {
-        this.temVehi = temVehi;
+    public void setTempVehi(String tempVehi) {
+        this.tempVehi = tempVehi;
     }
 
     public String getTipoalmacenado() {

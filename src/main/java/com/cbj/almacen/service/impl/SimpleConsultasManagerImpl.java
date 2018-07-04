@@ -51,4 +51,6 @@ public class SimpleConsultasManagerImpl implements ConsultasManager {
     public List<VistaIngreso> getArlaVehiculos(String clientes) {
         return consultasDao.getArlaVehiculos(clientes);
     }
+
+    public List<Object> getArlaVehiculosDetalle (String clientes){ return  consultasDao.getArlaVehiculosDetalle(clientes); }
 }

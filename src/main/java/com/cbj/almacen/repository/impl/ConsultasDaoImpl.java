@@ -92,4 +92,16 @@ public class ConsultasDaoImpl implements ConsultasDao {
             return new ArrayList<VistaIngreso>();
         }
     }
+
+    @Transactional(readOnly = true)
+    @SuppressWarnings("unchecked")
+    public List<Object> getArlaVehiculosDetalle(String clientes){
+        try{
+            Query query = em.createQuery("SELECT c.idIngresoVehiculo as idVehiculo, c.fechaEntrada as fecha, c.horaEntrada as hora, c.idCliente as ID, c.nombreCliente as nomCliente, c.nombrePlanta as planta, c.nombrePuerta as puerta FROM VistaIngreso c where c.status='1' and c.tipoMovimiento='1111' and c.idCliente in ("+clientes+")");
+            return query.getResultList();
+        }catch (QueryException e){
+            e.printStackTrace();
+            return new ArrayList<Object>();
+        }
+    }
 }

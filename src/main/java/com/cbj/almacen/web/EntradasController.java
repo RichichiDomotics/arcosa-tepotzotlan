@@ -95,6 +95,7 @@ public class EntradasController {
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/generarrdarla", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.POST)
     public @ResponseBody RegEntradas generarrdarla(Integer idCliente, Integer idVehiculo){
+        logger.info("Cliente: "+idCliente+" , Vehiculo: "+idVehiculo);
         RegEntradas regEntradas=new RegEntradas();
         regEntradas.setIdCliente(String.valueOf(idCliente));
         regEntradas.setIdIngresoVehiculo(idVehiculo);
@@ -108,35 +109,104 @@ public class EntradasController {
         logger.info("Accion para recuperar un json");
         DetallesRd detallesRd = new DetallesRd();
         Inventario inventario = new Inventario();
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-        logger.info(jsonArla.getAlturaTarima());
-
+        boolean respuestainventarios=false;
+        boolean respuestasentradas=false;
+        RegEntradas regEntradas = this.regEntradasManager.getEntradaByConsecutivo(Integer.parseInt(jsonArla.getRd())).get(0);
+        Date now = new Date();
+        final SimpleDateFormat formatHora = new SimpleDateFormat("hh:mm:ss a");
+        final SimpleDateFormat formateador = new SimpleDateFormat("yyyy-MM-dd");
+        String hora = formatHora.format(now);
+        String fecha = formateador.format(now);
+        int renglon = 1;
         for(JsonRenglon jsonRenglon : jsonArla.getRenglon()){
-            logger.info("cantidad: "+jsonRenglon.getCantidad());
-            logger.info("descripcion: "+jsonRenglon.getDescripcion());
-            logger.info("editado: "+jsonRenglon.isEditado());
-            logger.info("fecha de caducidad: "+jsonRenglon.getFechaCad());
-            logger.info("lote: "+jsonRenglon.getLote());
-            logger.info("marca: "+jsonRenglon.getMarca());
-            logger.info("observaciones: "+jsonRenglon.getObsercacionesMerca());
-            logger.info("peso bruto: "+jsonRenglon.getPesoBruto());
-            logger.info("peso neto: "+jsonRenglon.getPesoNeto());
-            logger.info("peso real: "+jsonRenglon.getPesoReal());
-            logger.info("peso por pieza: "+jsonRenglon.getPesoXpieza());
-            logger.info("pieza por empaque: "+jsonRenglon.getPiezaXempaque());
-            logger.info("presentacion: "+jsonRenglon.getPresentacion());
-            logger.info("sku: "+jsonRenglon.getSku());
-            logger.info("terminado: "+jsonRenglon.getTerminado());
+            if(!jsonRenglon.isEditado()) {
+                detallesRd.setAltura(jsonArla.getAlturaTarima());
+                detallesRd.setCamara(jsonArla.getCamaraSelect());
+                detallesRd.setClaveProducto(jsonArla.getClaveProducto());
+                detallesRd.setIncidenciaAnden(jsonArla.getIncidencia());
+                detallesRd.setEstibas(jsonArla.getNivelEstiba());
+                detallesRd.setTarimas(String.valueOf(jsonArla.getNumTarimas()));
+                detallesRd.setConsecutivo(Integer.parseInt(jsonArla.getRd()));
+                detallesRd.setRenglon((double) renglon);
+                detallesRd.setCantidad((double) jsonRenglon.getCantidad());
+                detallesRd.setDescripcion(jsonRenglon.getDescripcion());
+                detallesRd.setCaducidad(jsonRenglon.getFechaCad());
+                detallesRd.setLote(jsonRenglon.getLote());
+                detallesRd.setMarca(jsonRenglon.getMarca());
+                detallesRd.setObservaciones(jsonRenglon.getObsercacionesMerca());
+                detallesRd.setPesou(Double.parseDouble(jsonRenglon.getPesoBruto()));
+                detallesRd.setPesoBruto((double) jsonRenglon.getPesoNeto());
+                detallesRd.setLote2(String.valueOf(jsonRenglon.getPesoXpieza()));
+                detallesRd.setLote3(String.valueOf(jsonRenglon.getPiezaXempaque()));
+                detallesRd.setLote4(jsonRenglon.getSku());
+                detallesRd.setLote5(jsonRenglon.getTerminado());
+                logger.info("temperatura del producto: " + jsonArla.getTempProd());
+                logger.info("temperatura del vehiculo: " + jsonArla.getTempVehi());
+                detallesRd.setTemperaturaAnden(jsonArla.getTempProd());
+                detallesRd.setThermoking(jsonArla.getTempVehi());
+                detallesRd.setAlmaen(jsonArla.getTipoalmacenado());
+                detallesRd.setValorTotal(Double.parseDouble(jsonArla.getValMerca()));
+                detallesRd.setFechaCaptura(now);
+                detallesRd.setHoraCaptura(hora);
+                detallesRd.setIdIngresoVehiculo(regEntradas.getIdIngresoVehiculo());
+                detallesRd.setEmbalaje("CAJAS");
+                detallesRd.setIdCliente(String.valueOf(jsonRenglon.getIdCliente()));
+
+                if (jsonArla.getCamaraSelect().equals("T1") || jsonArla.getCamaraSelect().equals("T2") || jsonArla.getCamaraSelect().equals("T3")) {
+                    detallesRd.setServicio("80");
+                } else {
+                    detallesRd.setServicio("90");
+                }
+
+                inventario.setAltura(jsonArla.getAlturaTarima());
+                inventario.setCamara(jsonArla.getCamaraSelect());
+                inventario.setClaveProducto(jsonArla.getClaveProducto());
+                inventario.setTarimas(String.valueOf(jsonArla.getNumTarimas()));
+                inventario.setConsecutivo(Integer.parseInt(jsonArla.getRd()));
+                inventario.setRenglon((double) renglon);
+                inventario.setCantidadInventario((double) jsonRenglon.getCantidad());
+                inventario.setDescripcion(jsonRenglon.getDescripcion());
+                inventario.setCaducidad(jsonRenglon.getFechaCad());
+                inventario.setLote(jsonRenglon.getLote());
+                inventario.setMarca(jsonRenglon.getMarca());
+                inventario.setObservaciones(jsonRenglon.getObsercacionesMerca());
+                inventario.setPesou(Double.parseDouble(jsonRenglon.getPesoBruto()));
+                inventario.setPesoBruto(String.valueOf(jsonRenglon.getPesoNeto()));
+                inventario.setLote2(String.valueOf(jsonRenglon.getPesoXpieza()));
+                inventario.setLote3(String.valueOf(jsonRenglon.getPiezaXempaque()));
+                inventario.setLote4(jsonRenglon.getSku());
+                inventario.setLote5(jsonRenglon.getTerminado());
+                inventario.settAnden(jsonArla.getTempProd());
+                inventario.setValorTotal(Double.parseDouble(jsonArla.getValMerca()));
+                inventario.setFechaCaptura(fecha);
+                inventario.setHoraCaptura(hora);
+                inventario.setEmbalaje("CAJAS");
+                inventario.setIdCliente(String.valueOf(jsonRenglon.getIdCliente()));
+
+                if (jsonArla.getCamaraSelect().equals("T1") || jsonArla.getCamaraSelect().equals("T2") || jsonArla.getCamaraSelect().equals("T3")) {
+                    inventario.setServicio("80");
+                } else {
+                    inventario.setServicio("90");
+                }
+
+                respuestasentradas = this.detalleRdManager.setRegistroEntrada(detallesRd);
+                respuestainventarios = this.inventarioManager.setInventario(inventario);
+
+                detallesRd = new DetallesRd();
+                inventario = new Inventario();
+
+                renglon++;
+            }
         }
+
+
+        regEntradas.setFecha(fecha);
+        this.regEntradasManager.actualizaRegEntrada(regEntradas);
+
+        Vehiculo vehiculo = this.vehiculoManager.getidIngresoVehiculo(regEntradas.getIdIngresoVehiculo());
+        vehiculo.setStatus("2");
+
+        this.vehiculoManager.updateIngresaVehiculo(vehiculo);
 
         return "20";
     }
@@ -321,7 +391,7 @@ public class EntradasController {
             inventario.setMarca(detallesRd.getMarca());
             inventario.setPesoBruto(detallesRd.getPesoBruto().toString());
             inventario.setObservaciones(detallesRd.getObservaciones());
-            inventario.setPedimento(detallesRd.getImpedimento());
+            //inventario.setPedimento(detallesRd.getImpedimento());
 
 
             respInventario = inventarioManager.setInventario(inventario);

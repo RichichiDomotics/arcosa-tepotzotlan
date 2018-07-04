@@ -23,6 +23,7 @@ public class JsonRenglon implements Serializable {
     private String presentacion;
     private String sku;
     private String terminado;
+    private int idCliente;
 
     public int getCantidad() {
         return cantidad;
@@ -142,5 +143,13 @@ public class JsonRenglon implements Serializable {
 
     public void setTerminado(String terminado) {
         this.terminado = terminado;
+    }
+
+    public int getIdCliente() {
+        return idCliente;
+    }
+
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
     }
 }

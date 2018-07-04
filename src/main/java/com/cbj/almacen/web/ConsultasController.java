@@ -89,6 +89,13 @@ public class ConsultasController {
         return vehiculosArla;
     }
 
+    @CrossOrigin(origins = "*")
+    @RequestMapping(value = "/vehiculoJsonDetalle", produces=MediaType.APPLICATION_JSON_UTF8_VALUE, headers = {"Accept=text/xml, application/json"}, method = RequestMethod.GET)
+    public @ResponseBody  List<Object> vehiculoJsonDetalle(HttpServletResponse response){
+        List<Object> vehiculosArla = this.consultasManager.getArlaVehiculosDetalle("550, 551, 552, 606, 650, 1550, 1551, 1650, 1651, 2550");
+        return vehiculosArla;
+    }
+
     @RequestMapping(value = "/alm_consultaIngresos", method = RequestMethod.POST)
     public String onSubmit(String idConsulta, Model model) {
 
